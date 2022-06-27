@@ -1,0 +1,13 @@
+role Define a função do elemento HTML.
+aria-label Define uma etiqueta para elementos HTML.
+aria-labelledby
+aria-description 
+aria-describedby
+aria-placeholder 
+aria-checked 
+aria-disabled 
+aria-hidden 
+aria-valuemax 
+aria-valuemin 
+aria-readonly 
+aria-required

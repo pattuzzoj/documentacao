@@ -1,0 +1,35 @@
+content Define o valor de cada metadado ou http-equiv.
+charset Define a codificação de caracteres do documento HTML.
+
+http-equiv="content-language" Define o idioma padrão.
+http-equiv="default-style" Define o nome para uma folha de estilo alternativa.
+http-equiv="refresh" Define o tempo para atualização ou redirecionamento do documento HTML.
+http-equiv="content-type" Define de forma alternativa a codificação de caracteres do documento HTML.
+
+name="resolutions" Autoriza o uso de resoluções independentes da imagem, adaptando a resolução ao dispositivo.
+name="creator" Informa o criador do conteúdo do documento HTML.
+name="designer" Informa os responsáveis pelo design do documento HTML.
+name="web_author" Informa os responsáveis pela criação do documento.
+name="translator" Informa os responsáveis pela tradução do documento.
+name="generator" Informa os softwares envolvidos na geração do documento.
+name="version" Informa a versão de um aplicativo web.
+name="created" Informa a data de criação do documento HTML.
+name="origin" Define a origem do documento.
+name="page-version" Define a versão do documento HTML.
+name="author" Define o nome do author do documento HTML.
+name="thumbnail" Fornece uma miniatura do documento HTML.
+name="expires" Define a data de expiração do documento HTML.
+name="audience" Define o público-alvo para a página.
+name="description" Define uma descrição para a página.
+name="keywords" Define palavras-chave para pesquisa do documento HTML.
+name="license" Define a licença sobre a qual o site é publicado.
+name="referrer" Define como o conteúdo referenciado é controlado.
+name="viewport" Define a forma como o documento deve ser exibido.
+name="rating" Define uma classificação para o site, como sites adultos.
+name="icbm" Define uma posição geográfica em que a página é relacionada.
+name="rights-standard" Define o tipo de direito autoral sobre o documento.
+name="mobile-agent" Define o dispositivo mobile compátivel com a url do documento HTML.
+name="application-name" Define o nome do aplicativo web que a página representa.
+name="nonfiction" Define a veracidade do documento HTML, se contém informações reais ou não.
+name="robots" Define como os algoritmos de motores de pesquisa irão atuar sobre a sua página.
+name="theme-color" Define uma cor associada à página que será usada para personalização.

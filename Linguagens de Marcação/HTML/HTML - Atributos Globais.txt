@@ -1,0 +1,14 @@
+id Especifica um identificador único para o elemento.
+class Especifica uma classe a qual o elemento pertence.
+title Especifica um título que pode ser visualizado sob demanda.
+lang Especifica a linguagem primária do elemento.
+dir Especifica a direção do texto.
+spellcheck Especifica se o elemento está sujeito a correção gramatical e ortográfica.
+draggable Especifica se o elemento é arrastável.
+contenteditable Especifica se o conteúdo do elemento é editável.
+hidden Especifica que o elemento deve estar oculto visualmente.
+style Especifica uma declaração CSS.
+accesskey Especifica uma letra de acesso rápido ao elemento.
+tabindex Especifica a ordem de foco atráves da tecla Tab.
+translate Especifica se um texto deve ser traduzido.
+data- Especifica um atributo personalizável.
