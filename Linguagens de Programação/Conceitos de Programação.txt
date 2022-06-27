@@ -1,0 +1,161 @@
+Linguagem de Programação:
+A linguagem de programação é uma linguagem formal; sustentada pela Matemática, ela possui sintaxe e semântica, que regem e definem o uso de palavras reservadas à linguagem, permitindo a criação de algoritmos que visam solucionar algum problema.
+
+Linguagem de Alto Nível: uma linguagem de programação que se aproxima da linguagem humana, como o Portugol, uma linguagem de programação focada no ensino.
+Linguagem de Baixo Nível: uma linguagem de programação que se aproxima da linguagem de máquina, como o Assembly.
+Linguagem de Máquina: a linguagem de máquina é composta pelos dígitos 1 e 0. A combinação desses números formam bytes, que definidos, formam as instruções internas do processador.
+
+
+Algoritmo:
+Um algoritmo é formado por um ou mais passos lógicos que visa a obtenção de um resultado. São exemplos de algoritmos as operações aritméticas, onde se segue regras para a realização de cálculos matemáticos.
+
+
+Palavras Reservadas:
+Palavras reservadas funcionam como blocos de construção e estruturam as linguagens de programação. São palavras reservadas para uso pela linguagem, portanto não podem ser utilizadas para a criação de variáveis ou funções.
+
+
+Sintaxe e Semântica:
+A sintaxe define um conjunto de regras que visa o uso correto das palavras reservadas na criação de código. Depois do código ser escrito, uma verificação é feita para checar se a sintaxe está de acordo com o esperado. 
+A semântica trata-se do significado agregado às palavras reservadas da linguagem e a relação que possuem entre si.
+
+
+Código-fonte:
+O código-fonte é a versão do código em seu estado puro, formado por algoritmos e estruturado utilizando as palavras reservadas da linguagem.
+
+
+Paradigma de Programação
+Paradigmas de Programação são formas de classificação das linguagens, que por suas características podem ser definidas e agrupadas em diferentes paradigmas. Uma linguagem pode ser classificada em vários paradigmas.
+
+Alguns exemplos são:
+Paradigma Imperativo: no paradigma imperativo as instrunções são codificadas de forma sequencial, de cima para baixo, seguindo uma ordem lógica.
+Paradigma Declarativo:
+
+
+Depurador
+O depurador é um programa que analisa o código-fonte e verifica a existência de inconsistências (erros) nas intruções, como palavras reservadas usadas de forma incorreta.
+
+
+Interpretador e Compilador:
+Tanto o interpretador quanto o compilador são programas que analisam e traduzem o código-fonte de uma linguagem de programação de alto nível para a linguagem de máquina. Geralmente uma linguagem de programação é interpretada ou compilada, mas há casos onde ocorre a compilação para uma linguagem intermediária e depois a interpretação para a linguagem de máquina.
+
+A diferença entre o interpretador e o compilador, é que o interpretador traduz e executa a cada linha de instrução, perdendo sua tradução anterior; enquanto o compilador traduz todas as instruções primeiro e depois executa, salvando a tradução.
+
+
+Comentários:
+Comentários em um código-fonte servem para descrever trechos de código para facilitar o seu entendimento e sua posterior manutenção, pelo próprio programador ou por outro.
+
+
+Escopo:
+O escopo são as áreas do código. Ela delimita até onde certas instruções são "visíveis", como variáveis e funções.
+
+
+Variáveis:
+Variáveis, em arquitetura de computadores, são etiquetas (nomes) que estão associadas a um endereço na memória principal (nos computadores comuns é a memória RAM); esta é uma definição mais técnica do que é uma variável, veremos agora uma definição mais tangível.
+Variáveis são como contêineres de navios. Possuem um identificador (em nosso caso, um nome); um tamanho e um tipo específico de mercadoria, o qual entendemos como "tipo de dado". Nós abrimos a porta do container e atribuimos um dado a variável com o operador de atribuição (o sinal de '=' é geralmente utilizado para isso nas linguagens modernas).
+
+
+Tipos de Variáveis:
+var: é uma variável global que tem validade independente do escopo em que estiver.
+let: é uma variável local que só tem validade dentro do escopo em que foi declarada, como em um escopo de função.
+const: é uma variável constante que possui o seu valor fixo, não passível de alteração.
+
+Tipagem:
+Tipos de Dados:
+Boolean: baseado na lógica booleana, representa valores verdadeiros ou falsos.
+Number: representa números; inteiros ou com ponto decimal.
+BigInt: representa exclusivamente números inteiros, mas de comprimento arbitrário.
+String: representa uma cadeia de caracteres.
+Object: representa um objeto.
+Undefined: representa um valor ainda não definido.
+Null: representa o vazio, é um valor nulo.
+
+Estruturas de dados:
+Caracteres de Escape:
+Entrada e Saída de Dados:
+
+
+Operadores:
+Operadores agem como funções e operam sobre operandos (valores) realizando operações(cálculos, comparações etc).
+Operador unário: possui 1 operando
+Operador binário: possui 2 operandos
+
+
+Estruturas de Condição:
+Estruturas condicionais são estruturas que controlam o fluxo de execução de um programa, permitindo a bifurcação no fluxo de execução; ou seja, permite o controle e permite a execução de trechos de códigos diferentes dependendo da condição.
+
+
+Estruturas de Repetição:
+Estruturas de repetição são estruturas que permitem a repetição de instruções.
+
+
+Funções e Parâmetros:
+Funções são sub-rotinas, ações programadas para execução conforme demanda, tendo ou não parâmetros especificados na sua chamada; formada por um conjunto de instruções, elas realizam tarefas pré-determinadas.
+Parâmetros são variáveis locais definidas entre os parênteses no tempo de declaração e representam as características passíveis de alteração.
+Argumentos são os valores passados para a função e representam os parâmetros.
+
+
+Funções Built-in:
+Funções "Built-in" são funções embutidas na linguagem, prontas para uso pelo programador, como funções de entrada e saída e conversores de tipos de dados, entre outras.
+Ex.:
+console.log(): é uma função de saída que exibe valores no console do navegador.
+alert(): é uma função de saída que exibe valores em uma janela interativa.
+confirm(): é uma função de entrada e saída, onde há o pedido de confirmação de um dado ao usuário em uma janela interativa.
+prompt(): é uma função de entrada e saída, onde há uma saída e o usuário pode inserir dados em uma janela interativa.
+String(): é uma função de conversão de dados, converte valores em uma cadeia de caracteres.
+Number(): é uma função de conversão de dados, converte valores em números.
+Boolean(): é uma função de conversão de dados, converte valores em um valor booleano.
+
+
+Classes:
+    Programação Orientada a Objetos:
+    Métodos:
+    Construtores:
+    Encapsulamento:
+    Herança:
+    Polimorfismo:
+Testes:
+Frameworks:
+Bibliotecas:
+Linguagens e Seus Usos:
+
+
+
+
+
+
+
+
+Linguagem de Programação
+Algoritmo
+Palavras Reservadas
+Sintaxe e Semântica
+Código-fonte
+Paradigma de Programação
+Depurador
+Interpretador e Compilador
+Funções: Built-in--
+Comentários
+Escopo
+Variáveis
+    Tipos de Variáveis
+Tipagem
+Tipos de Dados
+Estruturas de dados
+Caracteres de Escape
+Entrada e Saída de Dados
+Operadores
+Estruturas de Condição
+Estruturas de Repetição
+Funções
+    Parâmetros
+Classes
+    Programação Orientada a Objetos
+    Métodos
+    Construtores
+    Encapsulamento
+    Herança
+    Polimorfismo
+Testes
+Framework
+Biblioteca
+Linguagens e Seus Usos

@@ -1,0 +1,11 @@
+Acrescentar informações de autoria.
+Resetar o estilo visual aplicado pelo navegador.
+Separar a folha de estilo em seções.
+Organizar a folha de estilo de acordo com a hierarquia HTML.
+Organizar as propriedades em estilo donw-top, do container ao conteúdo.
+Usar a forma abreviada das propriedades caso haja mais de duas propriedades da mesma classe.
+Títulos de seções em caixa alta; comentários, propriedades e valores em caixa baixa.
+Cores em hexadecimal.
+Variáveis.
+
+Nomear filhos como subprodutos do elemento pai separado por dois underlines: elemento__filho; e modificações ao filho separado por um underline: elemento__filho_estilo;
