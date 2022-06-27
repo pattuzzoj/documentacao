@@ -117,11 +117,3 @@ Testes:
 Frameworks:
 Bibliotecas:
 Linguagens e Seus Usos:
-
-
-
-
-
-
-
-
