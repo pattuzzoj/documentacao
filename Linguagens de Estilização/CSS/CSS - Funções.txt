@@ -1,0 +1,17 @@
+max() Define o maior valor de uma lista de valores.
+min() Define o menor valor de uma lista de valores.
+attr() Retorna o valor do atributo especificado.
+var() Insere o valor de uma váriavel especificada.
+calc() Efetua um cálculo.
+counter() Retorna o valor do contador especificado.
+rgb() Define a coloração no modelo RGB.
+rgba() Define a coloração no modelo RGB com opacidade.
+hsl() Define a coloração no modelo HSL.
+hsla() Define a coloração no modelo HSL com opacidade.
+cubic-bezier() Especifica uma curva de Bézier cúbica.
+linear-gradient() Especifica um gradiente linear.
+conic-gradient() Especifica um gradiente cônico.
+radial-gradient() Especifica um gradiente radial.
+repeating-linear-gradient() Especifica um gradiente linear com repetição.
+repeating-conic-gradient() Especifica um gradiente cônico com repetição.
+repeating-radial-gradient() Especifica um gradiente radial com repetição.

@@ -1,0 +1,7 @@
+em Especifica o tamanho relativo ao tamanho de fonte do elemento.
+rem Especifica o tamanho relativo ao tamanho de fonte do elemento <html>.
+% Especifica o tamanho relativo à área de visualização do elemento pai.
+vw Especifica a largura relativa a área de visualização.
+vh Especifica a altura relativa a área de visualização.
+vmin Especifica o tamanho relativo a menor dimensão da área de visualização.
+vmax Especifica o tamanho relativo a maior dimensão da área de visualização.

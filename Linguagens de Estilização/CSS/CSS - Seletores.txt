@@ -1,0 +1,67 @@
+* {Seleciona todos os elementos.}
+
+#article {Seleciona o elemento que possui o id article.}
+.article {Seleciona todos os elementos que possuem a classe article.}
+.article.big {Seleciona todos os elementos que possuem as classes article e big simultaneamente.}
+.article .section {Seleciona todos os elementos que possuem a classe section que são descendentes da classe article.}
+button {Seleciona todos os elementos button.}
+button.big {Seleciona todos os elementos button que possuem a classe big.}
+button, input {Seleciona todos os elementos button e input.}
+div input {Seleciona todos os elementos input que são descendentes do elemento div.}
+div > input {Seleciona todos os elementos input que são filhos do elemento div.}
+button + input {Seleciona o primeiro elemento input que é irmão mais novo do elemento button.}
+button ~ input {Seleciona todos os elementos input que são irmãos mais novos do elemento button.}
+
+[title] {Seleciona todos os elementos que possuem o atributo title.}
+[title = "Casa de praia"] {Seleciona todos os elementos que possuem o atributo title com o valor Casa.}
+[title |= "Casa"] {Seleciona todos os elementos que possuem o atributo title com a palavra Casa no início ou igual ao valor.}
+[title ^= "Casa"] {Seleciona todos os elementos que possuem o atributo title com a palavra Casa no início do valor.}
+[title *= "de"] {Seleciona todos os elementos que possuem o atributo title com a palavra de em algum lugar do valor.}
+[title $= "praia"] {Seleciona todos os elementos que possuem o atributo title com a palavra praia no final do valor.}
+[title ~= "praia"] {Seleciona todos os elementos que possuem o atributo title com a palavra praia isolada em algum lugar do valor.}
+
+:root {Seleciona o elemento html.}
+
+button:hover {Seleciona todos os elementos button ao terem o mouse sobre eles.}
+button:active {Seleciona todos os elementos button ao serem clicados.}
+button:focus {Seleciona o elemento button ao ter foco.}
+a:link {Seleciona todos os elementos a quando não foram visitados.}
+a:visited {Seleciona todos os elementos a ao serem visitados.}
+p:lang(pt) {Seleciona todos os elementos p que possuem o atributo lang com o valor pt.}
+:target {Seleciona uma âncora ativa.}
+p:empty {Seleciona todos os elementos p que não possuem nada em seu interior.}
+:fullscreen {Seleciona o elemento que está em fullscreen.}
+
+input:enabled {Seleciona todos os elementos input ativos.}
+input:disabled {Seleciona todos os elementos input inativos.}
+input:valid {Seleciona todos os elementos input com valor válido.}
+input:invalid {Seleciona todos os elementos input com valor inválido.}
+input:in-range {Seleciona todos os elementos input com o valor dentro da faixa especificada.}
+input:out-of-range {Seleciona todos os elementos input com o valor fora da faixa especificada.}
+input:checked {Seleciona todos os elementos input checados.}
+input:default {Seleciona o último elemento input com o atributo checked.}
+input:read-only {Seleciona todos os elementos input com o atributo readonly.}
+input:read-write {Seleciona todos os elementos input sem o atributo readonly.}
+input:required {Seleciona todos os elementos input com o atributo required.}
+input:optional {Seleciona todos os elementos input sem o atributo required.}
+input:indeterminate {Seleciona todos os elementos input que estão em estado indeterminado.}
+
+p:only-child {Seleciona todos os elementos p onde p é o único filho.}
+p:only-of-type {Seleciona todos os elementos p onde p é o único elemento do seu tipo.}
+p:first-child {Seleciona todos os elementos p onde p é o primeiro filho.}
+p:first-of-type {Seleciona todos os elementos p onde p é o primeiro elemento do seu tipo.}
+p:last-child {Seleciona todos os elementos p onde p é o último filho.}
+p:last-of-type {Seleciona todos os elementos p onde p é o último elemento do seu tipo.}
+p:nth-child(n) {Seleciona todos os elementos p onde p é o n filho.}
+p:nth-of-type(n) {Seleciona todos os elementos p onde p é o n elemento do seu tipo.}
+p:nth-last-child() {Seleciona todos os elementos p onde p é o n filho contando de forma invertida.}
+p:nth-last-of-type() {Seleciona todos os elementos p onde p é o n elemento do seu tipo contando de forma invertida.}
+:not(p) {Seleciona todos os elementos sem incluir o elemento p.}
+
+div::before {Insere um conteúdo antes de todos os elementos div.}
+div::after {Insere um conteúdo depois de todos os elementos div.}
+p::first-line {Seleciona a primeira linha de todos os elementos p.}
+p::first-letter {Seleciona a primeira letra de todos os elementos p.}
+::marker {Seleciona todos os marcadores de itens de listas.}
+input::placeholder {Seleciona todos os elementos input com o atributo placeholder e como o atributo será estilizado.}
+::selection {Seleciona os elementos selecionados pelo usuário.}
