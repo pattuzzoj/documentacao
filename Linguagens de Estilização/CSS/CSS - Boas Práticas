@@ -5,6 +5,7 @@ Organizar a folha de estilo de acordo com a hierarquia HTML.
 Organizar as propriedades em estilo donw-top, do container ao conteúdo.
 Usar a forma abreviada das propriedades caso haja mais de duas propriedades da mesma classe.
 Títulos de seções em caixa alta; comentários, propriedades e valores em caixa baixa.
+Espaçamento entre o seletor e a chave de abertura.
 Cores em hexadecimal.
 Variáveis.
 

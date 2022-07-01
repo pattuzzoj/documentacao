@@ -1,15 +1,21 @@
-'use strict';
+"use strict";
 
 // Palavras Reservadas
-var: Define uma variável global
-let: Define uma variável à nível de bloco
-const: Define uma variável constante
+var variavel = "Eu sou uma variável irrestrita";
+let nome_da_variavel = "Eu sou uma variável restrita ao bloco em que fui criada";
+const nome_da_variavel = "Eu sou uma variável de valor constante";
 
-if: Define uma estrutura de condição SE
-else: Define uma estrutura de condição SENÃO
-switch: Define uma estrutura de condição de caso correspondente
-case: Define um caso correspondente
-default: Define um caso padrão
+if (condição) {}
+else if (condição) {}
+else {}
+
+
+if (condição): "Em Português: se, define uma estrutura de condição: SE CONDIÇÃO É VERDADEIRA, ENTÃO FAÇA.";
+else if (condição): "Em Português: senão se, define uma estrutura de condição: SENÃO, SE CONDIÇÃO É VERDADEIRA, ENTÃO FAÇA.";
+else: "Em Português: senão, define uma estrutura de condição: SENÃO, ENTÃO FAÇA."; ""
+switch chave: "Em Português: interruptor, define uma estrutura de condição: KEY, CASO KEY, ENTÃO FAÇA"; 
+case: Define um caso correspondente;
+default: Define um caso padrão;
 
 try
 throw
@@ -30,14 +36,18 @@ String: caracteres
 Number: números inteiros ou decimais
 BigInt: números inteiros de comprimento arbitrário
 Boolean: true e false
-Object: objeto
-Symbol
+Symbol: representa um identificador único
 undefined: indefinido
 null: nulo
+Object: objeto
 
 String()
 Number()
 Boolean()
+
+
+// Estruturas de Dados
+Objeto: variável = {chave : valor,}
 
 
 // Operadores Aritméticos
