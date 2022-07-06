@@ -154,7 +154,7 @@ color Define a cor do texto.
 text-align Especifica o alinhamento do texto.
 text-align-last Especifica o alinhamento da última linha quando o text-justify é definido.
 text-decoration Especifica as propriedades: text-decoration-line, text-decoration-color, text-decoration-style e text-decoration-thickness.
-text-decoration-line Especifica o tipo de linha decorativa.
+text-decoration-line Especifica a posição da linha decorativa sobre o texto.
 text-decoration-color Especifica a cor da linha decorativa.
 text-decoration-style Especifica o estilo de linha decorativa.
 text-decoration-thickness Especifica a espessura da linha decorativa.
@@ -167,19 +167,19 @@ text-underline-position Especifica a posição da linha decorativa.
 
 font Especifica todas as propriedades de fonte.
 font-family Especifica a familia da fonte.
+font-style Especifica o estilo da fonte.
+font-size Especifica o tamanho da fonte.
+font-weight Especifica o peso da fonte.
 font-feature-settings Permite um maior controle sobre fontes OpenType.
 font-kerning Especifica o uso das informações de kerning.
-font-size Especifica o tamanho da fonte.
-font-size-adjust
-font-style Especifica o estilo da fonte.
+font-size-adjust Especifica o controle do tamanho da fonte caso a primeira esteja indisponível.
 font-variant Especifica se o texto deve ser exibido em uma small-cap.
 font-variant-caps Especifica glifos alternativos para letras maiúsculas.
-font-weight Especifica o peso da fonte.
 
 white-space Especifica como o espaço em branco é tratado.
 word-break Especifica como as palavras são quebradas.
-word-spacing Especifica o tamanho do espaço entre as palavras.
 word-wrap Especifica como as palavras devem se quebrar.
+word-spacing Especifica o tamanho do espaço entre as palavras.
 letter-spacing Especifica o tamanho do espaço entre as letras.
 line-height Especifica a altura da linha.
 
@@ -190,7 +190,7 @@ tab-size Especifica a largura da tabulação.
 quotes Especifica o tipo de aspas para citações.
 hyphens Especifica se um hífen deve ser adicionado e a linha quebrada num texto transbordado.
 
-list-style Especifica o estilo da lista.
+list-style Especifica todas as propriedades de estilo.
 list-style-image Especifica uma imagem como estilo da lista.
 list-style-position Especifica a posição do estilo da lista.
 list-style-type Especifica o tipo do estilo da lista.

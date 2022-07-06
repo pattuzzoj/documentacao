@@ -72,7 +72,7 @@
         }
     </style> -->
 
-    <style>
+    <!-- <style>
         body {
             background-color: #232529;
         }
@@ -144,11 +144,153 @@
             font-weight: 800;
             margin-top: 50px;
         }
+    </style> -->
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            background-image: linear-gradient(to right, #021a66, #5b0279);
+        }
+
+        .container {
+            display: none;
+            perspective: 1000px;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 570px;
+            height: 330px;
+            border-radius: 18px;
+            color: white;
+            background-image: linear-gradient(to right, #00d9ffaa, #c001faaa);
+            font-size: 26px;
+            transition-duration: 0.5s;
+            transform-style: preserve-3d;
+        }
+
+        .card__front, .card__back {
+            position: absolute;
+            text-align: center;
+            backface-visibility: hidden;
+        }
+
+        .card__back {
+            transform: rotateX(180deg);
+        }
+
+        .container:hover .card {
+            transform: rotateX(180deg);
+        }
+
+        #controls {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            color: white;
+            font-size: 20px;
+        }
+
+        button {
+            cursor: pointer;
+            display: inline-flex;
+            justify-content: center;
+            border: none;
+            width: 50px;
+            height: 50px;
+            margin: 0 20px;
+            border-radius: 50%;
+            padding: 6px;
+            font-size: 35px;
+            color: white;
+            background-image: linear-gradient(to right, #00d9ff, #c001fa);
+        }
+
     </style>
 </head>
 
 <body>
     <div>
+        <div class="container active">
+            <div class="card">
+                <span class="card__front">perspective</span>
+                <span class="card__back">Especifica um posicionamento 3D para o elemento.</span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <span class="card__front">perspective-origin</span>
+                <span class="card__back">Especifica a origem do posicionamento 3D.</span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <span class="card__front">transform</span>
+                <span class="card__back">Especifica todas as propriedades de transformação.</span>
+            </div>
+        </div>
+    </div>
+    <div id="controls">
+        <button id="prev">&#60;</button>
+        <span><span id="index"></span>/3</span>
+        <button id="next">&#62;</button>
+    </div>
+
+    <script>
+        const container = document.getElementsByClassName("container");
+        const container_length = container.length - 1;
+        const current = document.getElementById("index");
+        let index = 0;
+        current.innerHTML = index + 1;
+
+        document.getElementById("prev").onclick =
+        () => {
+            if(index != 0) {
+                current.innerHTML = index;
+
+                container[index].classList.toggle("active");
+                container[--index].classList.toggle("active");
+            }
+        }
+
+        document.getElementById("next").onclick =
+        () => {
+            if(index != container_length) {
+                container[index].classList.toggle("active");
+                index++
+                container[index].classList.toggle("active");
+                
+                current.innerHTML = index + 1;
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div>
         <div class="box" data-choice="0"></div>
         <div class="box" data-choice="1"></div>
         <div class="box" data-choice="2"></div>
@@ -241,7 +383,7 @@
                 setTimeout(teste, 2000);
             }
         }
-    </script>
+    </script> -->
 
 
 
