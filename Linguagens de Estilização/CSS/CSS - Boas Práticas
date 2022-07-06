@@ -8,5 +8,3 @@ Títulos de seções em caixa alta; comentários, propriedades e valores em caix
 Espaçamento entre o seletor e a chave de abertura.
 Cores em hexadecimal.
 Variáveis.
-
-Nomear filhos como subprodutos do elemento pai separado por dois underlines: elemento__filho; e modificações ao filho separado por um underline: elemento__filho_estilo;

@@ -7,7 +7,7 @@
 widows Especifica o número mínimo de linhas que deve ser deixado no topo de uma coluna ou página.
 orphans Especifica o número mínimo de linhas que deve ser deixado no final de uma coluna ou página.
 
-all Redefine todas as propriedades do elemento.
+all Redefine todas as propriedades do elemento, exceto unicode-bidi e direction.
 
 display Especifica o tipo de display.
 float Especifica uma flutuação.
@@ -74,7 +74,7 @@ box-shadow Adiciona uma sombra ao elemento.
 box-decoration-break Especifica como as propriedades: box-shadow, margin, border, border-image, padding, background e clip-path são adicionadas quando o container é fragmentado.
 mix-blend-mode Especifica como um elemento deve se mesclar com o fundo do elemento pai.
 
-box-sizing Especifica como o container é calculado.
+box-sizing Especifica como o container é dimensionado.
 height Especifica a altura.
 width Especifica a largura.
 max-height Especifica a maior altura permitida.
@@ -102,7 +102,7 @@ border-style Especifica o estilo da borda.
 border-collapse Especifica se as bordas das células em uma tabela devem se colapsar em uma.
 border-spacing Especifica o espaçamento entre os itens a partir da borda.
 border-image Especifica todas as propriedades de imagem a ser usada como borda.
-border-image-outset Especifica
+border-image-outset Especifica o início da borda.
 border-image-repeat Especifica a repetição da imagem a ser usada como borda.
 border-image-slice Especifica como cortar a imagem a ser usada como borda.
 border-image-source Especifica a fonte da imagem a ser usada como borda.
@@ -111,10 +111,14 @@ border-top Especifica a borda superior.
 border-top-color Especifica a cor da borda superior.
 border-top-style Especifica o estilo da borda superior.
 border-top-width Especifica a largura da borda superior.
+border-top-left-radius Especifica o arredondamento da borda superior da esquerda.
+border-top-right-radius Especifica o arredondamento da borda superior da direita.
 border-bottom Especifica a borda inferior.
 border-bottom-color Especifica a cor da borda inferior.
 border-bottom-style Especifica o estilo da borda inferior.
 border-bottom-width Especifica a largura da borda inferior.
+border-bottom-left-radius Especifica o arredondamento da borda inferior da esquerda.
+border-bottom-right-radius Especifica o arredondamento da borda inferior da direita.
 border-left Especifica a borda da esquerda.
 border-left-color Especifica a cor da borda da esquerda.
 border-left-style Especifica o estilo da borda da esquerda.
@@ -123,10 +127,6 @@ border-right Especifica a borda da direita.
 border-right-color Especifica a cor da borda da direita.
 border-right-style Especifica o estilo da borda da direita.
 border-right-width Especifica a largura da borda da direita.
-border-top-left-radius Especifica o arredondamento da borda superior da esquerda.
-border-top-right-radius Especifica o arredondamento da borda superior da direita.
-border-bottom-left-radius Especifica o arredondamento da borda inferior da esquerda.
-border-bottom-right-radius Especifica o arredondamento da borda inferior da direita.
 
 padding Especifica todas as propriedades de preenchimento.
 padding-top Especifica o preenchimento superior.

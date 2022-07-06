@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,73 +8,289 @@
     <title>Document</title>
     <link rel="stylesheet" href="">
 
-    <style>
+    <!-- <style>
         body {
             display: flex;
             flex-direction: column;
             align-items: center;
+            overflow-x: hidden;
+        }
+
+        #carrossel {
+            position: relative;
+        }
+
+        #previous, #next {
+            position: absolute;
+            top: 117px;
+            z-index: 2;
+            font-size: 50px;
+        }
+
+        #previous {
+            left: 200px;
+        }
+
+        #next {
+            right: 200px;
+        }
+
+        div {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         img {
-            position: absolute;
-            top: 0;
-            z-index: -10;
-            height: 0;
-            width: 0;
-            transition-duration: 0.4s;
+            height: 200px;
+            width: 200px;
+            opacity: 0.8;
+            margin: 0 10px;
+            border-radius: 20px;
+
+        }
+        
+        .active {
+            height: 300px;
+            width: 300px;
+            opacity: 1;
         }
 
-        .active {
-            position: static;
-            height: 400px;
-            width: 400px;
+
+        button {
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            padding: 8px;
+            background-color: #2325298f;
+            color: #e9ecef;
+        }
+
+        button:hover {
+            transform: scale(1.2);
+        }
+    </style> -->
+
+    <style>
+        body {
+            background-color: #232529;
+        }
+
+        body > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        div div {
+            height: 250px;
+            width: 250px;
+            margin: 0 25px;
+            background-color: #8d8d8d;
+        }
+
+        button {
+            margin: 0 8px;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 12px;
+        }
+
+        button {
+            color: white;
+        }
+        
+        button[data-color="#fff"] {
+            color: black;
+            background-color: #fff;
+        }
+
+        button[data-color="#a0a"] {
+            background-color: #a0a;
+        }
+
+        button[data-color="#00f"] {
+            background-color: #00f;
+        }
+
+        button[data-color="#6d0"] {
+            color: black;
+            background-color: #6d0;
+        }
+
+        button[data-color="#ee0"] {
+            color: black;
+            background-color: #ee0;
+        }
+
+        button[data-color="#f80"] {
+            color: black;
+            background-color: #f80;
+        }
+
+        button[data-color="#f00"] {
+            background-color: #f00;
+        }
+
+        button[data-color="#000"] {
+            background-color: #000;
+        }
+
+        #score {
+            color: white;
+            font-size: 80px;
+            font-weight: 800;
+            margin-top: 50px;
         }
     </style>
 </head>
+
 <body>
     <div>
-        <img src="https://images.unsplash.com/photo-1656507745882-404713c4bd8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        <div class="box" data-choice="0"></div>
+        <div class="box" data-choice="1"></div>
+        <div class="box" data-choice="2"></div>
+    </div>
+    <div>
+        <button onclick="check(this)" data-color="#fff" style="border: 2px solid #fff;">Branco</button>
+        <button onclick="check(this)" data-color="#a0a" style="border: 2px solid #a0a;">Roxo</button>
+        <button onclick="check(this)" data-color="#00f" style="border: 2px solid #00f;">Azul</button>
+        <button onclick="check(this)" data-color="#6d0" style="border: 2px solid #6d0;">Verde</button>
+        <button onclick="check(this)" data-color="#ee0" style="border: 2px solid #ee0;">Amarelo</button>
+        <button onclick="check(this)" data-color="#f80" style="border: 2px solid #f80;">Laranja</button>
+        <button onclick="check(this)" data-color="#f00" style="border: 2px solid #f00;">Vermelho</button>
+        <button onclick="check(this)" data-color="#000" style="border: 2px solid #000;">Preto</button>
+    </div>
+    <div id="score">0</div>
+    
+    <script>
+        const box = document.getElementsByClassName("box");
+        const box_length = box.length;
+        const button = document.getElementsByTagName("button");
+        const button_length = button.length;
+        
+        const colors = [
+            "#fff",
+            "#a0a",
+            "#00f",
+            "#6d0",
+            "#ee0",
+            "#f80",
+            "#f00",
+            "#000"
+        ]
+        
+        let color = null;
+        let index = null;
+        let i = 0;
+
+        function teste() {
+            if(document.getElementById("score").innerHTML == "GAME OVER") {
+                document.getElementById("score").innerHTML = 0;
+            }
+
+            do {
+                index = Math.trunc((Math.random() * 10) / 3);
+            }
+            while (index > 2);
+
+            do {
+                color = Math.floor(Math.random() * 10);
+            }
+            while (color > 8);
+
+            if(box[index].getAttribute("data-color") == colors[color] || colors[color] == undefined) {
+                teste();
+            }
+
+            box[index].setAttribute("data-color", colors[color]);
+            box[index].style.backgroundColor = colors[color];
+        }
+
+        document.body.onload = teste();
+
+        let score = 0;
+        let tempo = 1000;
+
+        function check(cor) {
+            let dataColor = cor.getAttribute("data-color");
+
+            if(dataColor == colors[color]) {
+                score++;
+                document.getElementById("score").innerHTML = score;
+                
+                tempo -= 50;
+
+                if(score == 20) {
+                    alert("Parabéns, você ganhou!!!");
+                    score = 0;
+                    tempo = 1000;
+                }
+                setTimeout(teste, tempo);
+            }
+            else {
+                score = 0;
+                tempo = 1000;
+                document.getElementById("score").innerHTML = "GAME OVER";
+
+                for(let index = 0; index < box_length; index++) {
+                    box[index].style.backgroundColor = "#8d8d8d";
+                }
+                setTimeout(teste, 2000);
+            }
+        }
+    </script>
+
+
+
+    <!-- <div id="carrossel" data-actives="4">
+        <img src="https://images.unsplash.com/photo-1656682775489-489aa1ff4286?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        <img class="active" src="https://images.unsplash.com/photo-1656507745882-404713c4bd8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
         <img class="active" src="https://images.unsplash.com/photo-1656181606803-4591c30ac2b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
         <img class="active" src="https://images.unsplash.com/photo-1656506662243-7a162c70541d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
         <img class="active" src="https://images.unsplash.com/photo-1656383118722-860ad805061b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
         <img src="https://images.unsplash.com/photo-1656457404545-7a61acc610bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-        <img src="https://images.unsplash.com/photo-1656460990797-d8602507b5e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
-    </div>
+        <button id="previous">&lt;</button>
+        <button id="next">&gt;</button>
+    </div> -->
 
-    <div>
-        <button onclick="imagens.anterior()">Anterior</button>
-        <button onclick="imagens.proxima()">Próximo</button>
-    </div>
 
-    <script>
-        const imagens = {
-            imagens: document.getElementsByTagName("img"),
-            anterior() {
-                if(this.imagens[0].classList.value != "active") {
-                    for(let index  = 0; index < this.imagens.length; index++) {
-                        if(this.imagens[index].classList.value == "active") {
-                            this.imagens[index + 2].classList.remove("active");
-                            this.imagens[index - 1].classList.add("active");
-    
-                            break;
-                        }
-                    }
+    <!-- <script>
+        const colecao = document.getElementsByTagName("img");
+        const quantidade = document.getElementsByTagName("img").length - 1;
+        const carrosselContainer = document.getElementById("carrossel");
+        const num = Number(carrosselContainer.getAttribute("data-actives"));
+
+        document.getElementById("previous").addEventListener("click", function () {
+            let carrossel = carrosselContainer.removeChild(colecao[quantidade]);
+            carrosselContainer.insertBefore(carrossel, carrosselContainer.children[0]);
+            
+            for(let index  = 0; index <= quantidade; index++) {
+                if(colecao[index].classList.value == "active") {
+                    colecao[index + num - 1].classList.remove("active");
+                    colecao[index - 1].classList.add("active");
+                    
+                    break;
                 }
-
-            },
-            proxima() {
-                if(this.imagens[this.imagens.length - 1].classList.value != "active") {
-                    for(let index  = 0; index < this.imagens.length; index++) {
-                        if(this.imagens[index].classList.value == "active") {
-                            this.imagens[index].classList.remove("active");
-                            this.imagens[index + 3].classList.add("active");
-
-                            break;
-                        }
-                    }
+            }
+        })
+        
+        document.getElementById("next").addEventListener("click", function () {
+            for(let index  = 0; index <= quantidade; index++) {
+                if(colecao[index].classList.value == "active") {
+                    colecao[index].classList.remove("active");
+                    colecao[index + num].classList.add("active");
+                    
+                    break;
                 }
-            },
-        }
-    </script>
+            }
+            
+            let carrossel = carrosselContainer.removeChild(colecao[0]);
+            carrosselContainer.appendChild(carrossel);
+        })
+    </script> -->
 </body>
+
 </html>
