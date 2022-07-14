@@ -1,0 +1,122 @@
+<meta>
+charset, content, http-equiv, name
+
+<base>
+target, href
+
+<link
+rel, type, href, hreflang, media
+
+<style>
+type, media
+
+<script>
+async, charset, defer, src, type
+
+<ins>
+cite, datetime
+
+<del>
+cite, datetime
+
+<q>
+cite
+
+<blockquote>
+cite
+
+<time>
+datetime
+
+<output>
+for, name
+
+<details>
+open
+
+<ol>
+reversed, start
+
+<li>
+value
+
+<col>
+span
+
+<colgroup>
+span
+
+<th>
+colspan, headers, rowspan, scope
+
+<td>
+colspan, headers, rowspan
+
+<form>
+accept-charset, action, method, enctype, novalidate, autocomplete, rel, target, name
+
+<input>
+autocomplete, name, src, type, accept, alt, autofocus, checked, dirname, disabled, form, formaction, list, max, maxlength, min, multiple, pattern, placeholder, readonly, required, step, value
+
+<fieldset>
+disabled, form
+
+<textarea>
+autofocus, cols, dirname, disabled, form, maxlength, name, placeholder, readonly, required, rows, wrap
+
+<select>
+autofocus, disabled, form, multiple, name, required, 
+
+<optgroup>
+disabled, label
+
+<option>
+disabled, form, label, selected, value
+
+<meter>
+form, high, low, max, min, optimum, value
+
+<progress>
+max, value
+
+<label>
+for, form
+
+<a>
+rel, target, type, download, href, hreflang, media
+
+<button>
+autofocus, disabled, form, formaction, type, value
+
+<img>
+alt, ismap, src, srcset, usemap
+
+<audio>
+autoplay, controls, loop, muted, preload, src
+
+<video>
+autoplay, controls, loop, muted, preload, src, poster
+
+<source>
+media, src, srcset, type
+
+<track>
+default, kind, label, src
+
+<embed>
+src, type
+
+<object>
+data, form, name, type, usemap
+
+<param>
+name, value
+
+<iframe>
+name, sandbox, src, srcdoc
+
+<map>
+name
+
+<area>
+alt, coords, download, href, hreflang, media, rel, shape, target

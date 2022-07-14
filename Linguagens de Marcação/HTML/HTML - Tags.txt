@@ -1,6 +1,6 @@
 HTML - Hyper Text Markup Language Linguagem de Marcação de Hipertexto
 
-<!-/> Define um comentário.
+<!----> Define um comentário.
 <!DOCTYPE html> Define HTML5 como o tipo do documento.
 
 <html/> Define o documento HTML.

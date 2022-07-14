@@ -8,16 +8,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="">
 
-    <!-- <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            overflow-x: hidden;
-        }
-
+    <style>
         #carrossel {
             position: relative;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         #previous, #next {
@@ -35,13 +32,6 @@
             right: 200px;
         }
 
-        div {
-            margin-top: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         img {
             height: 200px;
             width: 200px;
@@ -52,8 +42,8 @@
         }
         
         .active {
-            height: 300px;
-            width: 300px;
+            height: 500px;
+            width: 500px;
             opacity: 1;
         }
 
@@ -70,7 +60,7 @@
         button:hover {
             transform: scale(1.2);
         }
-    </style> -->
+    </style>
 
     <!-- <style>
         body {
@@ -145,7 +135,7 @@
             margin-top: 50px;
         }
     </style> -->
-
+<!-- 
     <style>
         body {
             display: flex;
@@ -221,11 +211,11 @@
 
 
 
-    </style>
+    </style> -->
 </head>
 
 <body>
-    <div>
+    <!-- <div>
         <div class="container active">
             <div class="card">
                 <span class="card__front">perspective</span>
@@ -278,7 +268,7 @@
                 current.innerHTML = index + 1;
             }
         }
-    </script>
+    </script> -->
 
 
 
@@ -391,19 +381,19 @@
 
 
 
-    <!-- <div id="carrossel" data-actives="4">
+    <div id="carrossel" data-actives="1">
         <img src="https://images.unsplash.com/photo-1656682775489-489aa1ff4286?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-        <img class="active" src="https://images.unsplash.com/photo-1656507745882-404713c4bd8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        <img src="https://images.unsplash.com/photo-1656507745882-404713c4bd8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
         <img class="active" src="https://images.unsplash.com/photo-1656181606803-4591c30ac2b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-        <img class="active" src="https://images.unsplash.com/photo-1656506662243-7a162c70541d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-        <img class="active" src="https://images.unsplash.com/photo-1656383118722-860ad805061b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        <img src="https://images.unsplash.com/photo-1656506662243-7a162c70541d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        <img src="https://images.unsplash.com/photo-1656383118722-860ad805061b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
         <img src="https://images.unsplash.com/photo-1656457404545-7a61acc610bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
         <button id="previous">&lt;</button>
         <button id="next">&gt;</button>
-    </div> -->
+    </div>
 
 
-    <!-- <script>
+    <script>
         const colecao = document.getElementsByTagName("img");
         const quantidade = document.getElementsByTagName("img").length - 1;
         const carrosselContainer = document.getElementById("carrossel");
@@ -436,7 +426,7 @@
             let carrossel = carrosselContainer.removeChild(colecao[0]);
             carrosselContainer.appendChild(carrossel);
         })
-    </script> -->
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,295 @@
+accept
+Elementos aceitos: <input>
+Especifica o tipo de arquivo aceito para envio ao servidor.
+
+accept-charset
+Elementos aceitos: <form>
+Especifica a codificação de caracteres para ser usada no envio de um formulário.
+
+action
+Elementos aceitos: <form>
+Especifica para onde enviar os dados do formulário.
+
+alt
+Elementos aceitos: <input>, <img>, <area>
+Especifica um texto alternativo quando a exibição do elemento falha.
+
+async
+Elementos aceitos: <script>
+Especifica que o script começa a executar no momento em que é analisado.
+
+autocomplete
+Elementos aceitos: <input>, <form>
+Especifica que o formulário ou o input deva ser autocompletado.
+
+autofocus
+Elementos aceitos: <input>, <button>, <select>, <textarea>
+Especifica que o elemento deve ganhar foco quando a página carregar.
+
+autoplay
+Elementos aceitos: <audio>, <video>
+Especifica que o áudio ou vídeo deva tocar assim que carregar.
+
+charset
+Elementos aceitos: <meta>, <script>
+Especifica a codificação de caracteres.
+
+checked
+Elementos aceitos: <input>
+Especifica que o elemento deve ser selecionado automaticamente quando a página carregar.
+
+cite
+Elementos aceitos: <blockquote>, <del>, <ins>, <q>
+Especifica uma URL que explica o texto interno dos elementos.
+
+cols
+Elementos aceitos: <textarea>
+Especifica a largura visível do elemento.
+
+colspan
+Elementos aceitos: <td>, <th>
+Especifica o número de colunas que a célula de uma tabela deve preencher.
+
+content
+Elementos aceitos: <meta>
+Especifica um valor associado ao atributo name ou http-equiv
+
+controls
+Elementos aceitos: <audio>, <video>
+Especifica que os controles de ação devem ser exibidos.
+
+coords
+Elementos aceitos: <area>
+Especifica as coordenadas da área.
+
+data
+Elementos aceitos: <object>
+Especifica a URL do recurso a ser usado pelo objeto.
+
+datetime
+Elementos aceitos: <del>, <ins>, <time>
+Especifica a data e horário que o texto inserido em <del> e <ins> foi excluido/inserido.
+
+default
+Elementos aceitos: <track>
+Especifica que o elemento <track> é a faixa de texto padrão.
+
+defer
+Elementos aceitos: <script>
+Especifica que o script começa a executar somente após a análise inteira da página.
+
+dirname
+Elementos aceitos: <input>, <textarea>
+Especifica que a direção dos textos será enviada pelo formulário.
+
+disabled
+Elementos aceitos: <input>, <button>, <select>, <textarea>, <fieldset>, <option>, <optgroup>
+Especifica que o elemento está desabilitado.
+
+download
+Elementos aceitos: <a>, <area>
+Especifica que ao clicar, o conteúdo será baixado.
+
+enctype
+Elementos aceitos: <form>
+Especifica como os dados do formulário devem ser submetidos ao serem enviados pelo método POST.
+
+for
+Elementos aceitos: <label>, <output>
+Especifica a qual elemento os elementos estão vinculados.
+
+form
+Elementos aceitos: <input>, <button>, <select>, <textarea>, <fieldset>, <option>, <object>, <meter>, <label>
+Especifica a qual formulário os elementos estão vinculados.
+
+formaction
+Elementos aceitos: <button>, <input>
+Especifica para onde enviar os dados quando o formulário é enviado.
+
+headers
+Elementos aceitos: <td>, <th>
+Especifica uma ou mais células de cabeçalho a que uma célula da tabela está relacionada.
+
+high
+Elementos aceitos: <meter>
+Especifica a faixa em que o valor é considerado alto.
+
+href
+Elementos aceitos: <a>, <area>, <base>, <link>
+Especifica a URL de origem ou destino.
+
+hreflang
+Elementos aceitos: <a>, <area>, <link>
+Especifica a linguagem do documento de destino.
+
+http-equiv
+Elementos aceitos: <meta>
+Fornece um cabeçalho HTTP para as informações contidas no atributo "content".
+
+ismap
+Elementos aceitos: <img>
+Especifica uma imagem como um mapa com áreas clicáveis, onde as coordenadas do click são enviadas ao servidor.
+
+kind
+Elementos aceitos: <track>
+Especifica o tipo de faixa de texto.
+
+label
+Elementos aceitos: <track>, <option>, <optgroup>
+Especifica o título da faixa de texto.
+
+list
+Elementos aceitos: <input>
+Especifica que o elemento <input> está relacionado a um conjunto de opções pré-definidas.
+
+loop
+Elementos aceitos: <audio>, <video>
+Especifica que a mídia deve ser reiniciada ao chegar ao final.
+
+low
+Elementos aceitos: <meter>
+Especifica a faixa em que o valor é considerado baixo.
+
+max
+Elementos aceitos: <meter>, <input>, <progress>
+Especifica o valor máximo.
+
+maxlength
+Elementos aceitos: <input>, <textarea>
+Especifica o maior número de caracteres em um elemento.
+
+media
+Elementos aceitos: <a>, <area>, <link>, <source>, <style>
+Especifica para qual tipo de mídia/dispositivo o documento vinculado é otimizado.
+
+method
+Elementos aceitos: <form>
+Especifica o método HTTP para envio do formulário.
+
+min
+Elementos aceitos: <meter>, <input>
+Especifica o valor mínimo.
+
+multiple
+Elementos aceitos: <input>, <select>
+Especifica que o elemento pode selecionar multiplos valores.
+
+muted
+Elementos aceitos: <video>, <audio>
+Especifica que a mídia está mutada.
+
+name
+Elementos aceitos: <butto>, fieldset>, <form>, <iframe>, <input>, <map>, <meta>, <object>, <output>, <param>, <select>, <textarea>
+Especifica o nome do elemento.
+
+novalidate
+Elementos aceitos: <form>
+Especifica que o formulário não deve ser validado ao ser enviado.
+
+open
+Elementos aceitos: <details>
+Especifica que os detalhes são visíveis por padrão.
+
+optimum
+Elementos aceitos: <meter>
+Especifica a faixa em que o valor é considerado ideal.
+
+pattern
+Elementos aceitos: <input>
+Especifica uma expressão regular a qual o valor do elemento deve atender.
+
+placeholder
+Elementos aceitos: <input>, <textarea>
+Especifica uma dica de que valor inserir.
+
+poster
+Elementos aceitos: <video>
+Especifica uma imagem a ser mostrada antes do vídeo iniciar.
+
+preload
+Elementos aceitos: <audio>, <video>
+Especifica se a mídia deve carregar após a página ter sido carregada.
+
+readonly
+Elementos aceitos: <input>, <textarea>
+Especifica que os elementos são somente leitura.
+
+rel
+Elementos aceitos: <a>, <area>, <form>, <link>
+Especifica o relacionamento entre o documento atual e o documento referenciado.
+
+required
+Elementos aceitos: <input>, <select>, <textarea>
+Especifica que os elementos devem ser preenchidos antes de enviar o formulário.
+
+reversed
+Elementos aceitos: <ol>
+Especifica uma lista ordenada invertida, decrescendo a ordem.
+
+rows
+Elementos aceitos: <textarea>
+Especifica o número de linhas visivéis do elemento.
+
+rowspan
+Elementos aceitos: <td>, <th>
+Especifica o número de linhas que a célula de uma tabela deve preencher.
+
+sandbox
+Elementos aceitos: <iframe>
+Especifica um conjunto de restrições ao conteúdo do iframe.
+
+scope
+Elementos aceitos: <th>
+Especifica se uma célula de cabeçalho é para uma coluna, linha ou um conjunto.
+
+selected
+Elementos aceitos: <option>
+Especifica que uma opção deve ser selecionada automaticamente quando a página carregar.
+
+shape
+Elementos aceitos: <area>
+Especifica a forma da área.
+
+span
+Elementos aceitos: <col>, <colgroup>
+Especifica o número de colunas para preencher.
+
+src
+Elementos aceitos: <audio>, <embed>, <iframe>, <img>, <input>, <script>, <source>, <track>, <video>
+Especifica a URL da mídia.
+
+srcdoc
+Elementos aceitos: <iframe>
+Especifica um conteúdo HTML para exibir no iframe.
+
+srcset
+Elementos aceitos: <img>, <source>
+Especifica a URL de uma imagem para uso sob restrição de exibição.
+
+start
+Elementos aceitos: <ol>
+Especifica o valor inicial do elemento.
+
+step
+Elementos aceitos: <input>
+Especifica o intervalo entre números válidos para o elemento.
+
+target
+Elementos aceitos: <a>, <area>, <base>, <form>
+Especifica como abrir o link de destino ou formulário.
+
+type
+Elementos aceitos: <a>, <button>, <embed>, <input>, <link>, <menu>, <object>, <script>, <source>, <style>
+Especifica o tipo do elemento.
+
+usemap
+Elementos aceitos: <img>, <object>
+Relaciona uma imagem com um mapa de áreas clicáveis.
+
+value
+Elementos aceitos: <button>, <input>, <li>, <option>, <meter>, <progress>, <param>
+Especifica o valor do elemento.
+
+wrap
+Elementos aceitos: <textarea>
+Especifica como o texto deve ser embrulhado ao ser enviado pelo formulário.
