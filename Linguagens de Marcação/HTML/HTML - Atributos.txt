@@ -293,3 +293,19 @@ Especifica o valor do elemento.
 wrap
 Elementos aceitos: <textarea>
 Especifica como o texto deve ser embrulhado ao ser enviado pelo formulário.
+
+crossorigin
+Elementos aceitos: <script>, <link>, <img>, <audio>, <video>
+Especifica o modo de solicitação de recursos a outros servidores.
+
+integrity
+Elementos aceitos: <script>, <link>
+Especifica que o script não seja executado caso tenha sido alterado por terceiros.
+
+nomodule
+Elementos aceitos: <script>
+Especifica que o navegador não deve executar o script.
+
+referrerpolicy
+Elementos aceitos: <script>
+Especifica quais informações enviar ao servidor ao solicitar um script.

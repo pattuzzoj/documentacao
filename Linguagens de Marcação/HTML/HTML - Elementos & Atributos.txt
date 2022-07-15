@@ -11,7 +11,7 @@ rel, type, href, hreflang, media
 type, media
 
 <script>
-async, charset, defer, src, type
+async, charset, defer, src, type, crossorigin, integrity, nomodule, referrerpolicy
 
 <ins>
 cite, datetime
