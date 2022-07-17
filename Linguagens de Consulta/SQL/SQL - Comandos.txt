@@ -1,0 +1,13 @@
+SELECT - extrai dados de um banco de dados.
+SELECT DISTINCT - extrai dados sem duplicatas de um banco de dados.
+UPDATE - atualiza dados de um banco de dados.
+DELETE - deleta dados de um banco de dados.
+INSERT INTO - insere dados em um banco de dados.
+CREATE DATABASE - cria um banco de dados.
+ALTER DATABASE - modifica um banco de dados.
+CREATE TABLE - cria uma tabela em um banco de dados.
+ALTER TABLE - modifica uma tabela de um banco de dados.
+DROP TABLE - deleta uma tabela de um banco de dados.
+CREATE INDEX - cria um índice.
+DROP INDEX - deleta um índice.
+WHERE - especifica uma condição.

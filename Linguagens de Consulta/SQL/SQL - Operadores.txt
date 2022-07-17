@@ -1,0 +1,12 @@
+Igual: =
+Diferente: <>
+Maior que: >
+Menor que: <
+Maior ou igual >=
+Menor ou igual: <=
+Entre: BETWEEN
+Como: LIKE
+Em: IN
+Conjunção: AND
+Disjunção: OR
+Negação: NOT
