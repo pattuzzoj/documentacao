@@ -10,3 +10,6 @@ Em: IN
 Conjunção: AND
 Disjunção: OR
 Negação: NOT
+
+IS NULL
+IS NOT NULL

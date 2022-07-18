@@ -1,13 +1,47 @@
 SELECT - extrai dados de um banco de dados.
 SELECT DISTINCT - extrai dados sem duplicatas de um banco de dados.
 UPDATE - atualiza dados de um banco de dados.
+SET - usado com conjunto com UPDATE, especifica uma coluna para modificação.
 DELETE - deleta dados de um banco de dados.
 INSERT INTO - insere dados em um banco de dados.
+VALUES - especifica os valores para manipulação.
 CREATE DATABASE - cria um banco de dados.
 ALTER DATABASE - modifica um banco de dados.
 CREATE TABLE - cria uma tabela em um banco de dados.
 ALTER TABLE - modifica uma tabela de um banco de dados.
+ADD - usado em conjunto com ALTER table, adiciona uma coluna.
+DROP COLUMN - usado em conjunto com ALTER TABLE, remove uma coluna.
+MODIFY - usado em conjunto com ALTER table, modifica uma coluna.
 DROP TABLE - deleta uma tabela de um banco de dados.
 CREATE INDEX - cria um índice.
 DROP INDEX - deleta um índice.
 WHERE - especifica uma condição.
+ORDER BY - ordena as colunas em ordem ascendente.
+ASC - usado em conjunto com ORDER BY, especifica uma ordem ascendente.
+DESC - usado em conjunto com ORDER BY, especifica uma ordem descendente.
+
+
+
+
+
+
+
+
+
+
+
+DROP TABLE card;
+
+CREATE TABLE card(
+  CardID integer PRIMARY KEY AUTOINCREMENT,
+  category varchar(30),
+  title varchar(20),
+  description varchar(200),
+  url varchar(100),
+  hreflang varchar(7)
+);
+
+INSERT INTO card (category, title, description, url, hreflang)
+VALUES ('tutoriais', 'Freecodecamp',
+'Nossa missão: ajudar as pessoas a aprender a codificar gratuitamente.',
+'https://www.freecodecamp.org/learn', 'en');
