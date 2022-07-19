@@ -1,7 +1,3 @@
-let const 
-
-
-
 "use strict";
 
 // Palavras Reservadas
@@ -44,9 +40,13 @@ undefined: indefinido
 null: nulo
 Object: objeto
 
-String()
-Number()
-Boolean()
+// Representações Numéricas
+1000 == 1_000
+1e3 == 1000
+1000e-3 == 1
+0x: prefixo para escrita hexadecimal
+0o: prefixo para escrita octal
+0b: prefixo para escrita binária
 
 
 // Estruturas de Dados
@@ -116,8 +116,32 @@ Para: for (declaração_de_variável, condição, manipulação_de_variável) {c
 Para em: for (index in object) {código}
 Para de: for (valor of object) {código}
 
-
 // Função
 Função: function nome_da_função(parâmetros) {código}
 Expressão de Função: variável = function (parâmetros) {código}
 Função de seta: (parâmetros) => {código}
+
+
+// Bibliotecas
+Math: contém funções matemáticas
+
+// Funções Built-in
+numero..toString(base) transforma o número na base numérica informada
+numero.toFixed(n) especifica a (n) quantidade de casas decimais de um número.
+String() transforma o valor em string
+Number() transforma o valor em número
+Boolean() transforma o valor em booleano
+isNaN() verifica se um valor não é um número
+isFinite() verifica se um valor é finito
+Object.is() verifica se dois valores são iguais
+parseInt() analisa uma string e retorna um número inteiro se encontrado
+parseFloat() analisa uma string e retorna um número decimal se encontrado
+
+Math.trunc() remove a parte decimal
+Math.floor() arredondamento para baixo
+Math.ceil() arredondamento para cima
+Math.round() arredonda para o inteiro mais próximo
+Math.random() retorna um número aleatório de 0 a 1 (sem incluir o 1)
+Math.max() retorna o maior número de uma lista
+Math.min() retorna o menor número de uma lista
+Math.pow() retorna um valor elevado a uma dada potência
