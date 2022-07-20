@@ -40,6 +40,8 @@ undefined: indefinido
 null: nulo
 Object: objeto
 
+'' e "" formam strings em linha, enquanto `` forma uma string multi-linha.
+
 // Representações Numéricas
 1000 == 1_000
 1e3 == 1000
@@ -54,6 +56,15 @@ Objeto: variável = {chave : valor,}
 Symbol()
 Symbol.for()
 Symbol.keyFor()
+
+
+// Caracteres de Escape
+Próxima linha: \n
+Tabulação: \t
+Barra: \\   
+Apóstrofo: \'
+Aspas: \"
+'
 
 
 // Operadores Aritméticos
@@ -126,22 +137,25 @@ Função de seta: (parâmetros) => {código}
 Math: contém funções matemáticas
 
 // Funções Built-in
-numero..toString(base) transforma o número na base numérica informada
-numero.toFixed(n) especifica a (n) quantidade de casas decimais de um número.
 String() transforma o valor em string
 Number() transforma o valor em número
 Boolean() transforma o valor em booleano
+numero..toString(base) transforma o número em uma string na base numérica indicada
+numero.toFixed(n) especifica a (n) quantidade de casas decimais de um número.
 isNaN() verifica se um valor não é um número
 isFinite() verifica se um valor é finito
 Object.is() verifica se dois valores são iguais
 parseInt() analisa uma string e retorna um número inteiro se encontrado
 parseFloat() analisa uma string e retorna um número decimal se encontrado
+charAt() retorna o valor de uma string na posição indicada.
+toUpperCase() transforma uma string em letras maiúsculas.
+toLowerCase() transforma uma string em letras minúsculas.
 
 Math.trunc() remove a parte decimal
 Math.floor() arredondamento para baixo
 Math.ceil() arredondamento para cima
 Math.round() arredonda para o inteiro mais próximo
 Math.random() retorna um número aleatório de 0 a 1 (sem incluir o 1)
-Math.max() retorna o maior número de uma lista
-Math.min() retorna o menor número de uma lista
+Math.max() retorna o maior número de uma lista seperada por vírgula.
+Math.min() retorna o menor número de uma lista seperada por vírgula.
 Math.pow() retorna um valor elevado a uma dada potência
