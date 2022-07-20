@@ -137,20 +137,28 @@ Função de seta: (parâmetros) => {código}
 Math: contém funções matemáticas
 
 // Funções Built-in
-String() transforma o valor em string
-Number() transforma o valor em número
-Boolean() transforma o valor em booleano
+String(valor) transforma o valor em string
+Number(valor) transforma o valor em número
+Boolean(valor) transforma o valor em booleano
 numero..toString(base) transforma o número em uma string na base numérica indicada
 numero.toFixed(n) especifica a (n) quantidade de casas decimais de um número.
-isNaN() verifica se um valor não é um número
-isFinite() verifica se um valor é finito
-Object.is() verifica se dois valores são iguais
-parseInt() analisa uma string e retorna um número inteiro se encontrado
-parseFloat() analisa uma string e retorna um número decimal se encontrado
-charAt() retorna o valor de uma string na posição indicada.
+isNaN(valor) verifica se um valor não é um número
+isFinite(valor) verifica se um valor é finito
+Object.is(valor, valor) verifica se dois valores são iguais
+parseInt(string, base) analisa uma string e retorna um número inteiro, se encontrado, na base númerica opcional
+parseFloat(string, base) analisa uma string e retorna um número decimal, se encontrado, na base númerica opcional
+
+charAt(posição) retorna o valor de uma string na posição indicada.
 toUpperCase() transforma uma string em letras maiúsculas
 toLowerCase() transforma uma string em letras minúsculas
-indexOf() retorna o índice de uma substring
+indexOf(string, posição_inicial) verifica se uma string contém uma substring e retorna o seu índice, senão retorna -1
+lastIndexOf(string, posição_inicial) verifica em ordem inversa se uma string contém uma substring e retorna o seu índice, senão retorna -1
+includes(string, posição_inicial) verifica se uma string contém uma substring e retorna booleano
+startsWith(string, posição_inicial) verifica se uma string começa com uma substring
+endsWith(string, posição_inicial) verifica se uma string termina com uma substring
+slice(posição_inicial, posição_final) retorna uma substring começando da posição inicial até a posição final menos 1
+substring(posição_inicial, posição_final) igual a função slice(), porém, a posição inicial pode ser maior que a posição final, neste caso começa da posição inicial menos 1 até a posição final
+substr(posição_inicial, comprimento) retorna uma substring começando da posição inicial até um comprimento
 
 Math.trunc() remove a parte decimal
 Math.floor() arredondamento para baixo
