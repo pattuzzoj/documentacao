@@ -148,8 +148,9 @@ Object.is() verifica se dois valores são iguais
 parseInt() analisa uma string e retorna um número inteiro se encontrado
 parseFloat() analisa uma string e retorna um número decimal se encontrado
 charAt() retorna o valor de uma string na posição indicada.
-toUpperCase() transforma uma string em letras maiúsculas.
-toLowerCase() transforma uma string em letras minúsculas.
+toUpperCase() transforma uma string em letras maiúsculas
+toLowerCase() transforma uma string em letras minúsculas
+indexOf() retorna o índice de uma substring
 
 Math.trunc() remove a parte decimal
 Math.floor() arredondamento para baixo
