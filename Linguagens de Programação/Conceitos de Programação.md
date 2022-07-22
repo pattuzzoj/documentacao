@@ -119,7 +119,6 @@
 <article>
     <h3>Estruturas de Condição:</h3>
     Estruturas condicionais são estruturas que controlam o fluxo de execução de um programa, permitindo a bifurcação no fluxo de execução; ou seja, permite o controle e permite a execução de trechos de códigos diferentes dependendo da condição.
-
     <p>estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.<br>
     estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.<br>
     estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem.<br>
