@@ -68,7 +68,6 @@
     Variáveis, em arquitetura de computadores, são etiquetas (nomes) que estão associadas a um endereço na memória principal (nos computadores comuns é a memória RAM); esta é uma definição mais técnica do que é uma variável, veremos agora uma definição mais tangível.
     Variáveis são como contêineres de navios. Possuem um identificador (em nosso caso, um nome); um tamanho e um tipo específico de mercadoria, o qual entendemos como "tipo de dado". Nós abrimos a porta do container e atribuimos um dado a variável com o operador de atribuição (o sinal de '=' é geralmente utilizado para isso nas linguagens modernas).
     
-    
     Tipos de Variáveis:
     var: é uma variável global que tem validade independente do escopo em que estiver.
     let: é uma variável local que só tem validade dentro do escopo em que foi declarada, como em um escopo de função.
@@ -95,6 +94,8 @@
 <article>
     <h3>Caractere e Sequência de Escape:</h3>
     Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.
+    
+    Ex.:
     Insere uma barra: \\
     Insere uma tabulação: \t
     Insere uma quebra de linha: \n
@@ -113,9 +114,9 @@
     Operador ternário: possui 3 operandos
 
     Ex.:
-    Operador de negação: !false vira true - operador unário
-    Operador de soma: 5 + 4 vira 10 - operador binário
-    Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).
+    <p>Operador de negação: !false vira true - operador unário.<br>
+    Operador de soma: 5 + 4 vira 10 - operador binário.<br>
+    Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).</p>
 </article>
 
 <article>
