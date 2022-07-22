@@ -119,7 +119,7 @@ Menor ou igual: <=
 Se: if (condição) {código}
 Senão se: else if (condição) {código}
 Senão: else {código}
-Se senão ternário: (condição) ? expressão_verdadeira:expressão_falsa
+Se senão se ternário: (condição) ? expressão_verdadeira:expressão_falsa
 Interruptor: switch (expressão) {case correspondente: código; default: código}
 
 // Estruturas de Repetição
