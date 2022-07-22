@@ -198,13 +198,13 @@
 
 <article>
     <h3>Classes:</h3>
-    Objetos:
-    Objeto é uma classe de dados que faz referência a um molde para um objeto real ou ficcional. Assim como objetos da vida real, os objetos na programação possuem atributos (que se refere as propriedades do objeto, como altura) e métodos (que se refere as ações desse objeto). Um exemplo de objeto em JavaScript seria:
+    <h4>Objetos:</h4>
+    <p>Objeto é uma classe de dados que faz referência a um molde para um objeto real ou ficcional. Assim como objetos da vida real, os objetos na programação possuem atributos (que se refere as propriedades do objeto, como altura) e métodos (que se refere as ações desse objeto). Um exemplo de objeto em JavaScript seria:</p>
     
-    <p>carro = {
+    carro = {
         marca: "FIAT", - A marca é um atributo do objeto carro e possui como valor FIAT
         acelerar() - acelerar() é um método do objeto carro que faz o carro ganhar mais velocidade
-    };</p>
+    };
 
     Programação Orientada a Objetos:
     A programação orientada a objetos é um paradigma de programação que utiliza objetos na criação de algoritmos, chamada POO (em Português) ou OOP, Object-Oriented Programming, é um paradigma muito utilizado em jogos ou em aplicações que requerem maior aproximação com o mundo real.
