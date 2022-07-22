@@ -181,11 +181,9 @@
 
 <article>
     <h3>Funções e Parâmetros:</h3>
-    Funções são sub-rotinas, ações programadas para execução conforme demanda, tendo ou não parâmetros especificados na sua chamada; formada por um conjunto de instruções, elas realizam tarefas pré-determinadas.
+    <p>Funções são sub-rotinas, ações programadas para execução conforme demanda, tendo ou não parâmetros especificados na sua chamada; formada por um conjunto de instruções, elas realizam tarefas pré-determinadas.
     Parâmetros são variáveis locais definidas entre os parênteses no tempo de declaração e representam as características passíveis de alteração.
-    Argumentos são os valores passados para a função e representam os parâmetros.
-
-
+    Argumentos são os valores passados para a função e representam os parâmetros.</p>
     <h4>Funções Built-in:</h4>
     <p>Funções "Built-in" são funções embutidas na linguagem, prontas para uso pelo programador, como funções de entrada e saída e conversores de tipos de dados, entre outras.</p>
     
