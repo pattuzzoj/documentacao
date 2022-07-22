@@ -94,9 +94,9 @@
     <h3>Caractere e Sequência de Escape:</h3>
     Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.
     
-    <p>Insere uma barra: \\
+    Insere uma barra: \\
     Insere uma tabulação: \t
-    Insere uma quebra de linha: \n</p>
+    Insere uma quebra de linha: \n
 </article>
 
 <article>
@@ -120,11 +120,12 @@
     <h3>Estruturas de Condição:</h3>
     Estruturas condicionais são estruturas que controlam o fluxo de execução de um programa, permitindo a bifurcação no fluxo de execução; ou seja, permite o controle e permite a execução de trechos de códigos diferentes dependendo da condição.
 
-    estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.
-    estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.
-    estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem.
-    estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.
+    <p>estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.<br>
+    estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.<br>
+    estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem.<br>
+    estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.<br>
     estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.
+    </p>
 
     if (5 > 8) {instrução} - se 5 for maior que 8, a instrução é executada.
     else if (20 > 80) {instrução} se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
