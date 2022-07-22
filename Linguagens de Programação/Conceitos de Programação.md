@@ -38,129 +38,148 @@
 </article>
 <br>
 
-<h3>Depurador</h3>
-O depurador é um programa que analisa o código-fonte e verifica a existência de inconsistências (erros) nas intruções, como palavras reservadas usadas de forma incorreta.
+<article>
+    <h3>Depurador</h3>
+    O depurador é um programa que analisa o código-fonte e verifica a existência de inconsistências (erros) nas intruções, como palavras reservadas usadas de forma incorreta.
+</article>
+
+<article>
+    <h3>Interpretador e Compilador:</h3>
+    Tanto o interpretador quanto o compilador são programas que analisam e traduzem o código-fonte de uma linguagem de programação de alto nível para a linguagem de máquina. Geralmente uma linguagem de programação é interpretada ou compilada, mas há casos onde ocorre a compilação para uma linguagem intermediária e depois a interpretação para a linguagem de máquina.
+    
+    A diferença entre o interpretador e o compilador, é que o interpretador traduz e executa a cada linha de instrução, perdendo sua tradução anterior; enquanto o compilador traduz todas as instruções primeiro e depois executa, salvando a tradução.
+</article>
 
 
-<h3>Interpretador e Compilador:</h3>
-Tanto o interpretador quanto o compilador são programas que analisam e traduzem o código-fonte de uma linguagem de programação de alto nível para a linguagem de máquina. Geralmente uma linguagem de programação é interpretada ou compilada, mas há casos onde ocorre a compilação para uma linguagem intermediária e depois a interpretação para a linguagem de máquina.
-
-A diferença entre o interpretador e o compilador, é que o interpretador traduz e executa a cada linha de instrução, perdendo sua tradução anterior; enquanto o compilador traduz todas as instruções primeiro e depois executa, salvando a tradução.
-
-
-<h3>Comentários:</h3>
-Comentários em um código-fonte servem para descrever trechos de código para facilitar o seu entendimento e sua posterior manutenção, pelo próprio programador ou por outro.
+<article>
+    <h3>Comentários:</h3>
+    Comentários em um código-fonte servem para descrever trechos de código para facilitar o seu entendimento e sua posterior manutenção, pelo próprio programador ou por outro.
+</article>
 
 
-<h3>Escopo:</h3>
-O escopo são as áreas do código. Ela delimita até onde certas instruções são "visíveis", como variáveis e funções.
+<article>
+    <h3>Escopo:</h3>
+    O escopo são as áreas do código. Ela delimita até onde certas instruções são "visíveis", como variáveis e funções.
+</article>
 
 
-<h3>Variáveis:</h3>
-Variáveis, em arquitetura de computadores, são etiquetas (nomes) que estão associadas a um endereço na memória principal (nos computadores comuns é a memória RAM); esta é uma definição mais técnica do que é uma variável, veremos agora uma definição mais tangível.
-Variáveis são como contêineres de navios. Possuem um identificador (em nosso caso, um nome); um tamanho e um tipo específico de mercadoria, o qual entendemos como "tipo de dado". Nós abrimos a porta do container e atribuimos um dado a variável com o operador de atribuição (o sinal de '=' é geralmente utilizado para isso nas linguagens modernas).
+<article>
+    <h3>Variáveis:</h3>
+    Variáveis, em arquitetura de computadores, são etiquetas (nomes) que estão associadas a um endereço na memória principal (nos computadores comuns é a memória RAM); esta é uma definição mais técnica do que é uma variável, veremos agora uma definição mais tangível.
+    Variáveis são como contêineres de navios. Possuem um identificador (em nosso caso, um nome); um tamanho e um tipo específico de mercadoria, o qual entendemos como "tipo de dado". Nós abrimos a porta do container e atribuimos um dado a variável com o operador de atribuição (o sinal de '=' é geralmente utilizado para isso nas linguagens modernas).
 
 
-Tipos de Variáveis:
-var: é uma variável global que tem validade independente do escopo em que estiver.
-let: é uma variável local que só tem validade dentro do escopo em que foi declarada, como em um escopo de função.
-const: é uma variável constante que possui o seu valor fixo, não passível de alteração.
+    Tipos de Variáveis:
+    var: é uma variável global que tem validade independente do escopo em que estiver.
+    let: é uma variável local que só tem validade dentro do escopo em que foi declarada, como em um escopo de função.
+    const: é uma variável constante que possui o seu valor fixo, não passível de alteração.
+</article>
 
-Tipagem:
-Tipos de Dados:
-Boolean: baseado na lógica booleana, representa valores verdadeiros ou falsos.
-Number: representa números; inteiros ou com ponto decimal.
-BigInt: representa exclusivamente números inteiros, mas de comprimento arbitrário.
-String: representa uma cadeia de caracteres.
-Object: representa um objeto.
-Symbol: representa um identificador único.
-Undefined: representa um valor ainda não definido.
-Null: representa o vazio, é um valor nulo.
+<article>
+    Tipagem:
+    Tipos de Dados:
+    Boolean: baseado na lógica booleana, representa valores verdadeiros ou falsos.
+    Number: representa números; inteiros ou com ponto decimal.
+    BigInt: representa exclusivamente números inteiros, mas de comprimento arbitrário.
+    String: representa uma cadeia de caracteres.
+    Object: representa um objeto.
+    Symbol: representa um identificador único.
+    Undefined: representa um valor ainda não definido.
+    Null: representa o vazio, é um valor nulo.
+</article>
 
-Estruturas de dados:
+<article>
+    Estruturas de dados:
+</article>
 
+<article>
+    Caractere e Sequência de Escape:
+    Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.
+    Insere uma barra: \\
+    Insere uma tabulação: \t
+    Insere uma quebra de linha: \n
+</article>
 
-Caractere e Sequência de Escape:
-Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.
-Insere uma barra: \\
-Insere uma tabulação: \t
-Insere uma quebra de linha: \n
+<article>
+    Entrada e Saída de Dados:
+    Entrada e saída de dados se refere ao processo de captura ou inserção e de transmissão ou exibição de dados. Eletrônicos podem fazê-lo utilizando sensores ou paineis de controle, e na programação temos algumas funções básicas, como input("função de captura") e print("função de exibição") em Python.
+</article>
 
+<article>
+    Operadores:
+    Operadores agem como funções e operam sobre operandos (valores) realizando operações(cálculos, comparações etc).
+    Operador unário: possui 1 operando
+    Operador binário: possui 2 operandos
+    Operador ternário: possui 3 operandos
 
-Entrada e Saída de Dados:
-Entrada e saída de dados se refere ao processo de captura ou inserção e de transmissão ou exibição de dados. Eletrônicos podem fazê-lo utilizando sensores ou paineis de controle, e na programação temos algumas funções básicas, como input("função de captura") e print("função de exibição") em Python.
+    Ex.:
+    Operador de negação: !false vira true - operador unário
+    Operador de soma: 5 + 4 vira 10 - operador binário
+    Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).
+</article>
 
+<article>
+    Estruturas de Condição:
+    Estruturas condicionais são estruturas que controlam o fluxo de execução de um programa, permitindo a bifurcação no fluxo de execução; ou seja, permite o controle e permite a execução de trechos de códigos diferentes dependendo da condição.
 
-Operadores:
-Operadores agem como funções e operam sobre operandos (valores) realizando operações(cálculos, comparações etc).
-Operador unário: possui 1 operando
-Operador binário: possui 2 operandos
-Operador ternário: possui 3 operandos
+    estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.
+    estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.
+    estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem.
+    estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.
+    estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.
 
-Ex.:
-Operador de negação: !false vira true - operador unário
-Operador de soma: 5 + 4 vira 10 - operador binário
-Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).
+    Ex.:
+    if (5 > 8) {instrução} - se 5 for maior que 8, a instrução é executada.
+    else if (20 > 80) {instrução} se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
+    else {instrução} se todas as estruturas anteriores não executarem, a instrução é executada.
+    (5 > 8) ? instrução : instrução - se 5 for maior que 8, a primeira instrução é executada, senão, a segunda instrução é executada.
 
+    switch (caso) {
+        valor: - se o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada
+            instrução
+        valor:  - se a comparação anterior for falsa e o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada
+            intrução
+    }
+</article>
 
-Estruturas de Condição:
-Estruturas condicionais são estruturas que controlam o fluxo de execução de um programa, permitindo a bifurcação no fluxo de execução; ou seja, permite o controle e permite a execução de trechos de códigos diferentes dependendo da condição.
+<article>
+    Estruturas de Repetição:
+    Estruturas de repetição são estruturas que permitem a repetição de instruções.
 
-estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.
-estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.
-estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem.
-estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.
-estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.
+    estrutura ENQUANTO: identificada pela palavra reservada (WHILE), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.
+    estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.
+    estrutura PARA: identificada pela palavra reservada (FOR), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.
+    estrutura PARA EM: identificada pela palavra reservada (FOR IN),
+    estrutura PARA DE: identificada pela palavra reservada (FOR OF),
 
-Ex.:
-if (5 > 8) {instrução} - se 5 for maior que 8, a instrução é executada.
-else if (20 > 80) {instrução} se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
-else {instrução} se todas as estruturas anteriores não executarem, a instrução é executada.
-(5 > 8) ? instrução : instrução - se 5 for maior que 8, a primeira instrução é executada, senão, a segunda instrução é executada.
+    Enquanto: while (condição) {código}
+    Faça enquanto: do {código} while (condição)
+    Para: for (declaração_de_variável, condição, manipulação_de_variável) {código}
+    Para em: for (index in object) {código}
+    Para de: for (valor of object) {código}
+</article>
 
-switch (caso) {
-    valor: - se o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada
-        instrução
-    valor:  - se a comparação anterior for falsa e o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada
-        intrução
-}
-
-
-Estruturas de Repetição:
-Estruturas de repetição são estruturas que permitem a repetição de instruções.
-
-estrutura ENQUANTO: identificada pela palavra reservada (WHILE), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.
-estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.
-estrutura PARA: identificada pela palavra reservada (FOR), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.
-estrutura PARA EM: identificada pela palavra reservada (FOR IN),
-estrutura PARA DE: identificada pela palavra reservada (FOR OF),
-
-Enquanto: while (condição) {código}
-Faça enquanto: do {código} while (condição)
-Para: for (declaração_de_variável, condição, manipulação_de_variável) {código}
-Para em: for (index in object) {código}
-Para de: for (valor of object) {código}
-
-
-Funções e Parâmetros:
-Funções são sub-rotinas, ações programadas para execução conforme demanda, tendo ou não parâmetros especificados na sua chamada; formada por um conjunto de instruções, elas realizam tarefas pré-determinadas.
-Parâmetros são variáveis locais definidas entre os parênteses no tempo de declaração e representam as características passíveis de alteração.
-Argumentos são os valores passados para a função e representam os parâmetros.
-
-
-Funções Built-in:
-Funções "Built-in" são funções embutidas na linguagem, prontas para uso pelo programador, como funções de entrada e saída e conversores de tipos de dados, entre outras.
-Ex.:
-console.log(): é uma função de saída que exibe valores no console do navegador.
-alert(): é uma função de saída que exibe valores em uma janela interativa.
-confirm(): é uma função de entrada e saída, onde há o pedido de confirmação de um dado ao usuário em uma janela interativa.
-prompt(): é uma função de entrada e saída, onde há uma saída e o usuário pode inserir dados em uma janela interativa.
-String(): é uma função de conversão de dados, converte valores em uma cadeia de caracteres.
-Number(): é uma função de conversão de dados, converte valores em números.
-Boolean(): é uma função de conversão de dados, converte valores em um valor booleano.
+<article>
+    Funções e Parâmetros:
+    Funções são sub-rotinas, ações programadas para execução conforme demanda, tendo ou não parâmetros especificados na sua chamada; formada por um conjunto de instruções, elas realizam tarefas pré-determinadas.
+    Parâmetros são variáveis locais definidas entre os parênteses no tempo de declaração e representam as características passíveis de alteração.
+    Argumentos são os valores passados para a função e representam os parâmetros.
 
 
-Classes:
+    Funções Built-in:
+    Funções "Built-in" são funções embutidas na linguagem, prontas para uso pelo programador, como funções de entrada e saída e conversores de tipos de dados, entre outras.
+    Ex.:
+    console.log(): é uma função de saída que exibe valores no console do navegador.
+    alert(): é uma função de saída que exibe valores em uma janela interativa.
+    confirm(): é uma função de entrada e saída, onde há o pedido de confirmação de um dado ao usuário em uma janela interativa.
+    prompt(): é uma função de entrada e saída, onde há uma saída e o usuário pode inserir dados em uma janela interativa.
+    String(): é uma função de conversão de dados, converte valores em uma cadeia de caracteres.
+    Number(): é uma função de conversão de dados, converte valores em números.
+    Boolean(): é uma função de conversão de dados, converte valores em um valor booleano.
+</article>
+
+<article>
+    Classes:
     Objetos:
     Objeto é uma classe de dados que faz referência a um molde para um objeto real ou ficcional. Assim como objetos da vida real, os objetos na programação possuem atributos (que se refere as propriedades do objeto, como altura) e métodos (que se refere as ações desse objeto). Um exemplo de objeto em JavaScript seria:
     carro = {
@@ -176,7 +195,20 @@ Classes:
     Encapsulamento:
     Herança:
     Polimorfismo:
-Testes:
-Frameworks:
-Bibliotecas:
-Linguagens e Seus Usos:
+</article>
+
+<article>
+    Testes:
+</article>
+
+<article>
+    Frameworks:
+</article>
+
+<article>
+    Bibliotecas:
+</article>
+
+<article>
+    Linguagens e Seus Usos:
+</article>
