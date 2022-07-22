@@ -45,9 +45,8 @@
 
 <article>
     <h3>Interpretador e Compilador:</h3>
-    Tanto o interpretador quanto o compilador são programas que analisam e traduzem o código-fonte de uma linguagem de programação de alto nível para a linguagem de máquina. Geralmente uma linguagem de programação é interpretada ou compilada, mas há casos onde ocorre a compilação para uma linguagem intermediária e depois a interpretação para a linguagem de máquina.
-    
-    A diferença entre o interpretador e o compilador, é que o interpretador traduz e executa a cada linha de instrução, perdendo sua tradução anterior; enquanto o compilador traduz todas as instruções primeiro e depois executa, salvando a tradução.
+    <p>Tanto o interpretador quanto o compilador são programas que analisam e traduzem o código-fonte de uma linguagem de programação de alto nível para a linguagem de máquina. Geralmente uma linguagem de programação é interpretada ou compilada, mas há casos onde ocorre a compilação para uma linguagem intermediária e depois a interpretação para a linguagem de máquina.</p>
+    <p>A diferença entre o interpretador e o compilador, é que o interpretador traduz e executa a cada linha de instrução, perdendo sua tradução anterior; enquanto o compilador traduz todas as instruções primeiro e depois executa, salvando a tradução.</p>
 </article>
 
 
@@ -95,10 +94,9 @@
     <h3>Caractere e Sequência de Escape:</h3>
     Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.
     
-    Ex.:
-    Insere uma barra: \\
+    <p>Insere uma barra: \\
     Insere uma tabulação: \t
-    Insere uma quebra de linha: \n
+    Insere uma quebra de linha: \n</p>
 </article>
 
 <article>
@@ -113,7 +111,6 @@
     Operador binário: possui 2 operandos
     Operador ternário: possui 3 operandos
 
-    Ex.:
     <p>Operador de negação: !false vira true - operador unário.<br>
     Operador de soma: 5 + 4 vira 10 - operador binário.<br>
     Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).</p>
@@ -129,8 +126,7 @@
     estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.
     estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.
 
-    Ex.:
-    if (5 > 8) {instrução} - se 5 for maior que 8, a instrução é executada.
+    <p>if (5 > 8) {instrução} - se 5 for maior que 8, a instrução é executada.
     else if (20 > 80) {instrução} se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
     else {instrução} se todas as estruturas anteriores não executarem, a instrução é executada.
     (5 > 8) ? instrução : instrução - se 5 for maior que 8, a primeira instrução é executada, senão, a segunda instrução é executada.
@@ -140,7 +136,7 @@
             instrução
         valor:  - se a comparação anterior for falsa e o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada
             intrução
-    }
+    }</p>
 </article>
 
 <article>
@@ -153,11 +149,11 @@
     estrutura PARA EM: identificada pela palavra reservada (FOR IN),
     estrutura PARA DE: identificada pela palavra reservada (FOR OF),
 
-    Enquanto: while (condição) {código}
+    <p>Enquanto: while (condição) {código}
     Faça enquanto: do {código} while (condição)
     Para: for (declaração_de_variável, condição, manipulação_de_variável) {código}
     Para em: for (index in object) {código}
-    Para de: for (valor of object) {código}
+    Para de: for (valor of object) {código}</p>
 </article>
 
 <article>
@@ -169,24 +165,25 @@
 
     Funções Built-in:
     Funções "Built-in" são funções embutidas na linguagem, prontas para uso pelo programador, como funções de entrada e saída e conversores de tipos de dados, entre outras.
-    Ex.:
-    console.log(): é uma função de saída que exibe valores no console do navegador.
+    
+    <p>console.log(): é uma função de saída que exibe valores no console do navegador.
     alert(): é uma função de saída que exibe valores em uma janela interativa.
     confirm(): é uma função de entrada e saída, onde há o pedido de confirmação de um dado ao usuário em uma janela interativa.
     prompt(): é uma função de entrada e saída, onde há uma saída e o usuário pode inserir dados em uma janela interativa.
     String(): é uma função de conversão de dados, converte valores em uma cadeia de caracteres.
     Number(): é uma função de conversão de dados, converte valores em números.
-    Boolean(): é uma função de conversão de dados, converte valores em um valor booleano.
+    Boolean(): é uma função de conversão de dados, converte valores em um valor booleano.</p>
 </article>
 
 <article>
     <h3>Classes:</h3>
     Objetos:
     Objeto é uma classe de dados que faz referência a um molde para um objeto real ou ficcional. Assim como objetos da vida real, os objetos na programação possuem atributos (que se refere as propriedades do objeto, como altura) e métodos (que se refere as ações desse objeto). Um exemplo de objeto em JavaScript seria:
-    carro = {
+    
+    <p>carro = {
         marca: "FIAT", - A marca é um atributo do objeto carro e possui como valor FIAT
         acelerar() - acelerar() é um método do objeto carro que faz o carro ganhar mais velocidade
-    }
+    }</p>
 
     Programação Orientada a Objetos:
     A programação orientada a objetos é um paradigma de programação que utiliza objetos na criação de algoritmos, chamada POO (em Português) ou OOP, Object-Oriented Programming, é um paradigma muito utilizado em jogos ou em aplicações que requerem maior aproximação com o mundo real.
