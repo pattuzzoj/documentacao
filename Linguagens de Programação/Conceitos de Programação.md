@@ -36,7 +36,6 @@
 <article>
     <h3>Paradigma de Programação</h3>
     <p>Paradigmas de Programação são formas de classificação das linguagens, que por suas características podem ser definidas e agrupadas em diferentes paradigmas. Uma linguagem pode ser classificada em vários paradigmas.</p>
-    
     <h5>Alguns exemplos são:</h5>
     <p>Paradigma Imperativo: no paradigma imperativo as instrunções são codificadas de forma sequencial, de cima para baixo, seguindo uma ordem lógica.<br>
     Paradigma Declarativo:</p>
