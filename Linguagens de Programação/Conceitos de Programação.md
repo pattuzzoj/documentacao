@@ -226,6 +226,10 @@
 <article>
     <h4>Herança:</h4>
 </article>
+
+<article>
+    <h4>Polimorfismo</h4>
+</article>
 </article>
 
 <article>
