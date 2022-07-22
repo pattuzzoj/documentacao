@@ -1,4 +1,4 @@
-<h1 align="cemter">CONCEITOS DE PROGRAMAÇÃO</h1>
+<h1 style="text-align: center;">CONCEITOS DE PROGRAMAÇÃO</h1>
 
 <h3>Linguagem de Programação:</h3>
 A linguagem de programação é uma linguagem formal; sustentada pela Matemática, ela possui sintaxe e semântica, que regem e definem o uso de palavras reservadas à linguagem, permitindo a criação de algoritmos que visam solucionar algum problema.
