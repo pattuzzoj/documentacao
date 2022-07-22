@@ -3,7 +3,7 @@
 <article>
 <h3>Linguagem de Programação:</h3>
 <p>Uma linguagem de programação é uma linguagem formal; sustentada pela Matemática, ela possui sintaxe e semântica, que regem e definem o uso de palavras reservadas à linguagem, permitindo a criação de algoritmos que visam solucionar algum problema.</p>
-<p>- <h6>Linguagem de Alto Nível:</h6> uma linguagem de programação que se aproxima da linguagem humana, como o Portugol, uma linguagem de programação focada no ensino.<br>
+<p>- <h5>Linguagem de Alto Nível:</h5> uma linguagem de programação que se aproxima da linguagem humana, como o Portugol, uma linguagem de programação focada no ensino.<br>
 - Linguagem de Baixo Nível: uma linguagem de programação que se aproxima da linguagem de máquina, como o Assembly.<br>
 - Linguagem de Máquina: a linguagem de máquina é composta pelos dígitos 1 e 0. A combinação desses números formam bytes, que definidos, formam as instruções internas do processador.</p>
 </article>
