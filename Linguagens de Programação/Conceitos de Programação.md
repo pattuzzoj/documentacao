@@ -3,7 +3,7 @@
 <article>
 <h3>Linguagem de Programação:</h3>
 <p>Uma linguagem de programação é uma linguagem formal; sustentada pela Matemática, ela possui sintaxe e semântica, que regem e definem o uso de palavras reservadas à linguagem, permitindo a criação de algoritmos que visam solucionar algum problema.</p>
-<p>- <h4 style="display: inline-block">Linguagem de Alto Nível:</h4> uma linguagem de programação que se aproxima da linguagem humana, como o Portugol, uma linguagem de programação focada no ensino.<br>
+<p>- Linguagem de Alto Nível: uma linguagem de programação que se aproxima da linguagem humana, como o Portugol, uma linguagem de programação focada no ensino.<br>
 - Linguagem de Baixo Nível: uma linguagem de programação que se aproxima da linguagem de máquina, como o Assembly.<br>
 - Linguagem de Máquina: a linguagem de máquina é composta pelos dígitos 1 e 0. A combinação desses números formam bytes, que definidos, formam as instruções internas do processador.</p>
 </article>
@@ -33,12 +33,14 @@
 </article>
 
 
-<h3>Paradigma de Programação</h3>
-Paradigmas de Programação são formas de classificação das linguagens, que por suas características podem ser definidas e agrupadas em diferentes paradigmas. Uma linguagem pode ser classificada em vários paradigmas.
-
-Alguns exemplos são:
-Paradigma Imperativo: no paradigma imperativo as instrunções são codificadas de forma sequencial, de cima para baixo, seguindo uma ordem lógica.
-Paradigma Declarativo:
+<article>
+    <h3>Paradigma de Programação</h3>
+    <p>Paradigmas de Programação são formas de classificação das linguagens, que por suas características podem ser definidas e agrupadas em diferentes paradigmas. Uma linguagem pode ser classificada em vários paradigmas.</p>
+    
+    <h5>Alguns exemplos são:</h5>
+    <p>Paradigma Imperativo: no paradigma imperativo as instrunções são codificadas de forma sequencial, de cima para baixo, seguindo uma ordem lógica.<br>
+    Paradigma Declarativo:</p>
+</article>
 
 
 <h3>Depurador</h3>
