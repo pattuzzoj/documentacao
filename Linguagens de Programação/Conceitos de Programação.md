@@ -6,24 +6,24 @@ Linguagem de Baixo Nível: uma linguagem de programação que se aproxima da lin
 Linguagem de Máquina: a linguagem de máquina é composta pelos dígitos 1 e 0. A combinação desses números formam bytes, que definidos, formam as instruções internas do processador.
 
 
-<h3>Algoritmo:</h3>
+<h2>Algoritmo:</h2>
 Um algoritmo é formado por um ou mais passos lógicos que visa a obtenção de um resultado. São exemplos de algoritmos as operações aritméticas, onde se segue regras para a realização de cálculos matemáticos.
 
 
-Palavras Reservadas:
+<h2>Palavras Reservadas:</h2>
 Palavras reservadas funcionam como blocos de construção e estruturam as linguagens de programação. São palavras reservadas para uso pela linguagem, portanto não podem ser utilizadas para a criação de variáveis ou funções.
 
 
-Sintaxe e Semântica:
+<h2>Sintaxe e Semântica:</h2>
 A sintaxe define um conjunto de regras que visa o uso correto das palavras reservadas na criação de código. Depois do código ser escrito, uma verificação é feita para checar se a sintaxe está de acordo com o esperado. 
 A semântica trata-se do significado agregado às palavras reservadas da linguagem e a relação que possuem entre si.
 
 
-Código-fonte:
+<h2>Código-fonte:</h2>
 O código-fonte é a versão do código em seu estado puro, formado por algoritmos e estruturado utilizando as palavras reservadas da linguagem.
 
 
-Paradigma de Programação
+<h2>Paradigma de Programação</h2>
 Paradigmas de Programação são formas de classificação das linguagens, que por suas características podem ser definidas e agrupadas em diferentes paradigmas. Uma linguagem pode ser classificada em vários paradigmas.
 
 Alguns exemplos são:
