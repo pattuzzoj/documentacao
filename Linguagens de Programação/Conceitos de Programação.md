@@ -6,7 +6,7 @@ Linguagem de Baixo Nível: uma linguagem de programação que se aproxima da lin
 Linguagem de Máquina: a linguagem de máquina é composta pelos dígitos 1 e 0. A combinação desses números formam bytes, que definidos, formam as instruções internas do processador.
 
 
-Algoritmo:
+<h4>Algoritmo:</h4>
 Um algoritmo é formado por um ou mais passos lógicos que visa a obtenção de um resultado. São exemplos de algoritmos as operações aritméticas, onde se segue regras para a realização de cálculos matemáticos.
 
 
