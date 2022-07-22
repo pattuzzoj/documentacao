@@ -128,21 +128,21 @@
     </p>
 
     if (5 > 8) { - se 5 for maior que 8, a instrução é executada.
-        instrução
+        instrução;
     }
     else if (20 > 80) { - se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
-        instrução
+        instrução;
     }
     else { - se todas as estruturas anteriores não executarem, a instrução é executada.
-        instrução
+        instrução;
     }
     (5 > 8) ? instrução : instrução - se 5 for maior que 8, a primeira instrução é executada, senão, a segunda instrução é executada.
 
     switch (caso) {
         valor: - se o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada
-            instrução
+            instrução;
         valor:  - se a comparação anterior for falsa e o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada
-            intrução
+            intrução;
     }
 </article>
 
@@ -189,7 +189,7 @@
     <p>carro = {
         marca: "FIAT", - A marca é um atributo do objeto carro e possui como valor FIAT
         acelerar() - acelerar() é um método do objeto carro que faz o carro ganhar mais velocidade
-    }</p>
+    };</p>
 
     Programação Orientada a Objetos:
     A programação orientada a objetos é um paradigma de programação que utiliza objetos na criação de algoritmos, chamada POO (em Português) ou OOP, Object-Oriented Programming, é um paradigma muito utilizado em jogos ou em aplicações que requerem maior aproximação com o mundo real.
