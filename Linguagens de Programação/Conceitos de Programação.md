@@ -8,22 +8,29 @@
 - Linguagem de Máquina: a linguagem de máquina é composta pelos dígitos 1 e 0. A combinação desses números formam bytes, que definidos, formam as instruções internas do processador.</p>
 </article>
 
-
-<h3>Algoritmo:</h3>
-Um algoritmo é formado por um ou mais passos lógicos que visa a obtenção de um resultado. São exemplos de algoritmos as operações aritméticas, onde se segue regras para a realização de cálculos matemáticos.
-
-
-<h3>Palavras Reservadas:</h3>
-Palavras reservadas funcionam como blocos de construção e estruturam as linguagens de programação. São palavras reservadas para uso pela linguagem, portanto não podem ser utilizadas para a criação de variáveis ou funções.
+<article>
+    <h3>Algoritmo:</h3>
+    <p>Um algoritmo é formado por um ou mais passos lógicos que visa a obtenção de um resultado. São exemplos de algoritmos as operações aritméticas, onde se segue regras para a realização de cálculos matemáticos.</p>
+</article>
 
 
-<h3>Sintaxe e Semântica:</h3>
-A sintaxe define um conjunto de regras que visa o uso correto das palavras reservadas na criação de código. Depois do código ser escrito, uma verificação é feita para checar se a sintaxe está de acordo com o esperado. 
-A semântica trata-se do significado agregado às palavras reservadas da linguagem e a relação que possuem entre si.
+<article>
+    <h3>Palavras Reservadas:</h3>
+    <p>Palavras reservadas funcionam como blocos de construção e estruturam as linguagens de programação. São palavras reservadas para uso pela linguagem, portanto não podem ser utilizadas para a criação de variáveis ou funções.</p>
+</article>
 
 
-<h3>Código-fonte:</h3>
-O código-fonte é a versão do código em seu estado puro, formado por algoritmos e estruturado utilizando as palavras reservadas da linguagem.
+<article>
+    <h3>Sintaxe e Semântica:</h3>
+    <p>A sintaxe define um conjunto de regras que visa o uso correto das palavras reservadas na criação de código. Depois do código ser escrito, uma verificação é feita para checar se a sintaxe está de acordo com o esperado. <br>
+    A semântica trata-se do significado agregado às palavras reservadas da linguagem e a relação que possuem entre si.</p>
+</article>
+
+
+<article>
+    <h3>Código-fonte:</h3>
+    <p>O código-fonte é a versão do código em seu estado puro, formado por algoritmos e estruturado utilizando as palavras reservadas da linguagem.</p>
+</article>
 
 
 <h3>Paradigma de Programação</h3>
