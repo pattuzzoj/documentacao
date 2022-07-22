@@ -123,7 +123,7 @@ Estruturas de Repetição:
 Estruturas de repetição são estruturas que permitem a repetição de instruções.
 
 estrutura ENQUANTO: identificada pela palavra reservada (WHILE), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.
-estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE),
+estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.
 estrutura PARA: identificada pela palavra reservada (FOR),
 estrutura PARA EM: identificada pela palavra reservada (FOR IN),
 estrutura PARA DE: identificada pela palavra reservada (FOR OF),
