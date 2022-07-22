@@ -167,13 +167,16 @@ String.fromCodePoint(código) retorna um caracter conforme o código UTF indicad
 repeat(quantidade) retorna um produto de string repetida em uma quantidade de vezes
 trim() remove os espaços de uma string
 .length retorna o próximo índice em uma cadeia de valores, string, array
+split(delimitador) verifica uma string e a transforma em uma array separando os elementos inserindo uma vírgula no delimitador indicado
 
-at(posição) retorna o valor de um array na posição indicada
+isArray([]) verifica se um valor é uma array
+join(delimitador) verifica uma array e a transforma em uma string separando os elementos pelo delimitador indicado
+at(posição) retorna o valor de uma array na posição indicada
 unshift(valor) adiciona um valor ao início do array
 shift() remove o primeiro valor do array
 push(valor) adiciona um valor ao final do array
 pop() remove o último valor do array
-splice(posição_inicial, quantidade, valores) modifica um array, adicionando, removendo pela quantidade indicada ou modificando
+splice(posição_inicial, quantidade, valores) modifica uma array, adicionando, removendo pela quantidade indicada ou modificando
 slice(posição_inicial, posição_final) retorna uma subarray começando da posição inicial até a posição final menos 1
 concat(valores) retorna uma nova array concatenando os valores indicados com uma array
 forEach(função) permite a execução de uma função sobre cada valor de uma array
@@ -187,8 +190,8 @@ findLastIndex(condição) verifica em ordem inversa e retorna o índice do prime
 map(função) retorna uma array com os resultados da função
 sort(função) modifica uma array ordenando-a de acordo com a função indicada
 reverse() inverte a ordem dos elementos em uma array
-split()
-join()
+reduce()
+reduceRight()
 
 Math.trunc() remove a parte decimal
 Math.floor() arredondamento para baixo
