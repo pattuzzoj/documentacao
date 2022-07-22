@@ -66,22 +66,48 @@ Number: representa números; inteiros ou com ponto decimal.
 BigInt: representa exclusivamente números inteiros, mas de comprimento arbitrário.
 String: representa uma cadeia de caracteres.
 Object: representa um objeto.
+Symbol: representa um identificador único.
 Undefined: representa um valor ainda não definido.
 Null: representa o vazio, é um valor nulo.
 
 Estruturas de dados:
-Caracteres de Escape:
+
+
+Caractere e Sequência de Escape:
+Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.
+Insere uma barra: \\
+Insere uma tabulação: \t
+Insere uma quebra de linha: \n
+
+
 Entrada e Saída de Dados:
+Entrada e saída de dados se refere ao processo de captura ou inserção e de transmissão ou exibição de dados. Eletrônicos podem fazê-lo utilizando sensores ou paineis de controle, e na programação temos algumas funções básicas, como input("função de captura") e print("função de exibição") em Python.
 
 
 Operadores:
 Operadores agem como funções e operam sobre operandos (valores) realizando operações(cálculos, comparações etc).
 Operador unário: possui 1 operando
 Operador binário: possui 2 operandos
+Operador ternário: possui 3 operandos
+
+Ex.:
+Operador de negação: !false vira true - operador unário
+Operador de soma: 5 + 4 vira 10 - operador binário
+Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).
 
 
 Estruturas de Condição:
 Estruturas condicionais são estruturas que controlam o fluxo de execução de um programa, permitindo a bifurcação no fluxo de execução; ou seja, permite o controle e permite a execução de trechos de códigos diferentes dependendo da condição.
+
+estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.
+estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.
+estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem.
+estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.
+
+Ex.:
+if (5 > 8) {instrução} - se 5 for maior que 8, a instrução é executada.
+else if (20 > 80) {instrução} se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 8, a instrução é executada.
+else {instrução} se todas as estruturas anteriores não executarem, a instrução é executada.
 
 
 Estruturas de Repetição:
@@ -107,7 +133,16 @@ Boolean(): é uma função de conversão de dados, converte valores em um valor 
 
 
 Classes:
+    Objetos:
+    Objeto é uma classe de dados que faz referência a um molde para um objeto real ou ficcional. Assim como objetos da vida real, os objetos na programação possuem atributos (que se refere as propriedades do objeto, como altura) e métodos (que se refere as ações desse objeto). Um exemplo de objeto em JavaScript seria:
+    carro = {
+        marca: "FIAT", - A marca é um atributo do objeto carro e possui como valor FIAT
+        acelerar() - acelerar() é um método do objeto carro que faz o carro ganhar mais velocidade
+    }
+
     Programação Orientada a Objetos:
+    A programação orientada a objetos é um paradigma de programação que utiliza objetos na criação de algoritmos, chamada POO (em Português) ou OOP, Object-Oriented Programming, é um paradigma muito utilizado em jogos ou em aplicações que requerem maior aproximação com o mundo real.
+
     Métodos:
     Construtores:
     Encapsulamento:
