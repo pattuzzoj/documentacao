@@ -212,15 +212,20 @@
     A programação orientada a objetos é um paradigma de programação que utiliza objetos na criação de algoritmos, chamada POO (em Português) ou OOP, Object-Oriented Programming, é um paradigma muito utilizado em jogos ou em aplicações que requerem maior aproximação com o mundo real.
 
 <article>
-
-    <h4>Objetos:</h4>
+    <h4>Métodos:</h4>
 </article>
-    <h4>Objetos:</h4>
-    Métodos:
-    Construtores:
-    Encapsulamento:
-    Herança:
-    Polimorfismo:
+
+<article>
+    <h4>Construtores:</h4>
+</article>
+
+<article>
+    <h4>Encapsulamento:</h4>
+</article>
+
+<article>
+    <h4>Herança:</h4>
+</article>
 </article>
 
 <article>
