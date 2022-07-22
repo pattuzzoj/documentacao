@@ -1,4 +1,4 @@
-<h2>Linguagem de Programação:</h2>
+<h3>Linguagem de Programação:</h3>
 A linguagem de programação é uma linguagem formal; sustentada pela Matemática, ela possui sintaxe e semântica, que regem e definem o uso de palavras reservadas à linguagem, permitindo a criação de algoritmos que visam solucionar algum problema.
 
 Linguagem de Alto Nível: uma linguagem de programação que se aproxima da linguagem humana, como o Portugol, uma linguagem de programação focada no ensino.
@@ -6,24 +6,24 @@ Linguagem de Baixo Nível: uma linguagem de programação que se aproxima da lin
 Linguagem de Máquina: a linguagem de máquina é composta pelos dígitos 1 e 0. A combinação desses números formam bytes, que definidos, formam as instruções internas do processador.
 
 
-<h2>Algoritmo:</h2>
+<h3>Algoritmo:</h3>
 Um algoritmo é formado por um ou mais passos lógicos que visa a obtenção de um resultado. São exemplos de algoritmos as operações aritméticas, onde se segue regras para a realização de cálculos matemáticos.
 
 
-<h2>Palavras Reservadas:</h2>
+<h3>Palavras Reservadas:</h3>
 Palavras reservadas funcionam como blocos de construção e estruturam as linguagens de programação. São palavras reservadas para uso pela linguagem, portanto não podem ser utilizadas para a criação de variáveis ou funções.
 
 
-<h2>Sintaxe e Semântica:</h2>
+<h3>Sintaxe e Semântica:</h3>
 A sintaxe define um conjunto de regras que visa o uso correto das palavras reservadas na criação de código. Depois do código ser escrito, uma verificação é feita para checar se a sintaxe está de acordo com o esperado. 
 A semântica trata-se do significado agregado às palavras reservadas da linguagem e a relação que possuem entre si.
 
 
-<h2>Código-fonte:</h2>
+<h3>Código-fonte:</h3>
 O código-fonte é a versão do código em seu estado puro, formado por algoritmos e estruturado utilizando as palavras reservadas da linguagem.
 
 
-<h2>Paradigma de Programação</h2>
+<h3>Paradigma de Programação</h3>
 Paradigmas de Programação são formas de classificação das linguagens, que por suas características podem ser definidas e agrupadas em diferentes paradigmas. Uma linguagem pode ser classificada em vários paradigmas.
 
 Alguns exemplos são:
@@ -31,25 +31,25 @@ Paradigma Imperativo: no paradigma imperativo as instrunções são codificadas 
 Paradigma Declarativo:
 
 
-<h2>Depurador</h2>
+<h3>Depurador</h3>
 O depurador é um programa que analisa o código-fonte e verifica a existência de inconsistências (erros) nas intruções, como palavras reservadas usadas de forma incorreta.
 
 
-<h2>Interpretador e Compilador:</h2>
+<h3>Interpretador e Compilador:</h3>
 Tanto o interpretador quanto o compilador são programas que analisam e traduzem o código-fonte de uma linguagem de programação de alto nível para a linguagem de máquina. Geralmente uma linguagem de programação é interpretada ou compilada, mas há casos onde ocorre a compilação para uma linguagem intermediária e depois a interpretação para a linguagem de máquina.
 
 A diferença entre o interpretador e o compilador, é que o interpretador traduz e executa a cada linha de instrução, perdendo sua tradução anterior; enquanto o compilador traduz todas as instruções primeiro e depois executa, salvando a tradução.
 
 
-<h2>Comentários:</h2>
+<h3>Comentários:</h3>
 Comentários em um código-fonte servem para descrever trechos de código para facilitar o seu entendimento e sua posterior manutenção, pelo próprio programador ou por outro.
 
 
-<h2>Escopo:</h2>
+<h3>Escopo:</h3>
 O escopo são as áreas do código. Ela delimita até onde certas instruções são "visíveis", como variáveis e funções.
 
 
-<h2>Variáveis:</h2>
+<h3>Variáveis:</h3>
 Variáveis, em arquitetura de computadores, são etiquetas (nomes) que estão associadas a um endereço na memória principal (nos computadores comuns é a memória RAM); esta é uma definição mais técnica do que é uma variável, veremos agora uma definição mais tangível.
 Variáveis são como contêineres de navios. Possuem um identificador (em nosso caso, um nome); um tamanho e um tipo específico de mercadoria, o qual entendemos como "tipo de dado". Nós abrimos a porta do container e atribuimos um dado a variável com o operador de atribuição (o sinal de '=' é geralmente utilizado para isso nas linguagens modernas).
 
