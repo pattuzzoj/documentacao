@@ -208,8 +208,6 @@
         };
     </article>
     
-    
-
     <article>
 
         <h4>Objetos:</h4>
