@@ -1,4 +1,4 @@
-Linguagem de Programação:
+<h2>Linguagem de Programação:</h2>
 A linguagem de programação é uma linguagem formal; sustentada pela Matemática, ela possui sintaxe e semântica, que regem e definem o uso de palavras reservadas à linguagem, permitindo a criação de algoritmos que visam solucionar algum problema.
 
 Linguagem de Alto Nível: uma linguagem de programação que se aproxima da linguagem humana, como o Portugol, uma linguagem de programação focada no ensino.
