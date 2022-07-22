@@ -111,9 +111,9 @@
     Operador binário: possui 2 operandos<br>
     Operador ternário: possui 3 operandos</p>
 
-    Operador de negação: !false vira true - operador unário.
+    <p>Operador de negação: !false vira true - operador unário.
     Operador de soma: 5 + 4 vira 10 - operador binário.
-    Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).
+    Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).<p>
 </article>
 
 <article>
