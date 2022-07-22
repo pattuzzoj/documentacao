@@ -36,7 +36,6 @@
     <p>Paradigma Imperativo: no paradigma imperativo as instrunções são codificadas de forma sequencial, de cima para baixo, seguindo uma ordem lógica.<br>
     Paradigma Declarativo:</p>
 </article>
-<br>
 
 <article>
     <h3>Depurador</h3>
@@ -49,18 +48,15 @@
     <p>A diferença entre o interpretador e o compilador, é que o interpretador traduz e executa a cada linha de instrução, perdendo sua tradução anterior; enquanto o compilador traduz todas as instruções primeiro e depois executa, salvando a tradução.</p>
 </article>
 
-
 <article>
     <h3>Comentários:</h3>
     Comentários em um código-fonte servem para descrever trechos de código para facilitar o seu entendimento e sua posterior manutenção, pelo próprio programador ou por outro.
 </article>
 
-
 <article>
     <h3>Escopo:</h3>
     O escopo são as áreas do código. Ela delimita até onde certas instruções são "visíveis", como variáveis e funções.
 </article>
-
 
 <article>
     <h3>Variáveis:</h3>
