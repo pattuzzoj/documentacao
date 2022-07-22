@@ -111,9 +111,9 @@
     Operador binário: possui 2 operandos
     Operador ternário: possui 3 operandos
 
-    <p>Operador de negação: !false vira true - operador unário.<br>
+    Operador de negação: !false vira true - operador unário.<br>
     Operador de soma: 5 + 4 vira 10 - operador binário.<br>
-    Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).</p>
+    Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).
 </article>
 
 <article>
@@ -126,7 +126,7 @@
     estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.
     estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.
 
-    <p>if (5 > 8) {instrução} - se 5 for maior que 8, a instrução é executada.
+    if (5 > 8) {instrução} - se 5 for maior que 8, a instrução é executada.
     else if (20 > 80) {instrução} se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
     else {instrução} se todas as estruturas anteriores não executarem, a instrução é executada.
     (5 > 8) ? instrução : instrução - se 5 for maior que 8, a primeira instrução é executada, senão, a segunda instrução é executada.
@@ -136,7 +136,7 @@
             instrução
         valor:  - se a comparação anterior for falsa e o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada
             intrução
-    }</p>
+    }
 </article>
 
 <article>
@@ -149,11 +149,11 @@
     estrutura PARA EM: identificada pela palavra reservada (FOR IN),
     estrutura PARA DE: identificada pela palavra reservada (FOR OF),
 
-    <p>Enquanto: while (condição) {código}
+    Enquanto: while (condição) {código}
     Faça enquanto: do {código} while (condição)
     Para: for (declaração_de_variável, condição, manipulação_de_variável) {código}
     Para em: for (index in object) {código}
-    Para de: for (valor of object) {código}</p>
+    Para de: for (valor of object) {código}
 </article>
 
 <article>
