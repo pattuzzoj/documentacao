@@ -7,32 +7,28 @@
 - Linguagem de Baixo Nível: uma linguagem de programação que se aproxima da linguagem de máquina, como o Assembly.<br>
 - Linguagem de Máquina: a linguagem de máquina é composta pelos dígitos 1 e 0. A combinação desses números formam bytes, que definidos, formam as instruções internas do processador.</p>
 </article>
-
+<br>
 <article>
     <h3>Algoritmo:</h3>
     <p>Um algoritmo é formado por um ou mais passos lógicos que visa a obtenção de um resultado. São exemplos de algoritmos as operações aritméticas, onde se segue regras para a realização de cálculos matemáticos.</p>
 </article>
-
-
+<br>
 <article>
     <h3>Palavras Reservadas:</h3>
     <p>Palavras reservadas funcionam como blocos de construção e estruturam as linguagens de programação. São palavras reservadas para uso pela linguagem, portanto não podem ser utilizadas para a criação de variáveis ou funções.</p>
 </article>
-
-
+<br>
 <article>
     <h3>Sintaxe e Semântica:</h3>
     <p>A sintaxe define um conjunto de regras que visa o uso correto das palavras reservadas na criação de código. Depois do código ser escrito, uma verificação é feita para checar se a sintaxe está de acordo com o esperado. <br>
     A semântica trata-se do significado agregado às palavras reservadas da linguagem e a relação que possuem entre si.</p>
 </article>
-
-
+<br>
 <article>
     <h3>Código-fonte:</h3>
     <p>O código-fonte é a versão do código em seu estado puro, formado por algoritmos e estruturado utilizando as palavras reservadas da linguagem.</p>
 </article>
-
-
+<br>
 <article>
     <h3>Paradigma de Programação</h3>
     <p>Paradigmas de Programação são formas de classificação das linguagens, que por suas características podem ser definidas e agrupadas em diferentes paradigmas. Uma linguagem pode ser classificada em vários paradigmas.</p>
@@ -40,7 +36,7 @@
     <p>Paradigma Imperativo: no paradigma imperativo as instrunções são codificadas de forma sequencial, de cima para baixo, seguindo uma ordem lógica.<br>
     Paradigma Declarativo:</p>
 </article>
-
+<br>
 
 <h3>Depurador</h3>
 O depurador é um programa que analisa o código-fonte e verifica a existência de inconsistências (erros) nas intruções, como palavras reservadas usadas de forma incorreta.
