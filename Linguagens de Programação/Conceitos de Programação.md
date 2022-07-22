@@ -76,7 +76,7 @@
 </article>
 
 <article>
-    Tipagem:
+    <h3>Tipagem:</h3>
     Tipos de Dados:
     Boolean: baseado na lógica booleana, representa valores verdadeiros ou falsos.
     Number: representa números; inteiros ou com ponto decimal.
@@ -89,11 +89,11 @@
 </article>
 
 <article>
-    Estruturas de dados:
+    <h3>Estruturas de dados:</h3>
 </article>
 
 <article>
-    Caractere e Sequência de Escape:
+    <h3>Caractere e Sequência de Escape:</h3>
     Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.
     Insere uma barra: \\
     Insere uma tabulação: \t
@@ -101,12 +101,12 @@
 </article>
 
 <article>
-    Entrada e Saída de Dados:
+    <h3>Entrada e Saída de Dados:</h3>
     Entrada e saída de dados se refere ao processo de captura ou inserção e de transmissão ou exibição de dados. Eletrônicos podem fazê-lo utilizando sensores ou paineis de controle, e na programação temos algumas funções básicas, como input("função de captura") e print("função de exibição") em Python.
 </article>
 
 <article>
-    Operadores:
+    <h3>Operadores:</h3>
     Operadores agem como funções e operam sobre operandos (valores) realizando operações(cálculos, comparações etc).
     Operador unário: possui 1 operando
     Operador binário: possui 2 operandos
@@ -119,7 +119,7 @@
 </article>
 
 <article>
-    Estruturas de Condição:
+    <h3>Estruturas de Condição:</h3>
     Estruturas condicionais são estruturas que controlam o fluxo de execução de um programa, permitindo a bifurcação no fluxo de execução; ou seja, permite o controle e permite a execução de trechos de códigos diferentes dependendo da condição.
 
     estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.
@@ -143,7 +143,7 @@
 </article>
 
 <article>
-    Estruturas de Repetição:
+    <h3>Estruturas de Repetição:</h3>
     Estruturas de repetição são estruturas que permitem a repetição de instruções.
 
     estrutura ENQUANTO: identificada pela palavra reservada (WHILE), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.
@@ -160,7 +160,7 @@
 </article>
 
 <article>
-    Funções e Parâmetros:
+    <h3>Funções e Parâmetros:</h3>
     Funções são sub-rotinas, ações programadas para execução conforme demanda, tendo ou não parâmetros especificados na sua chamada; formada por um conjunto de instruções, elas realizam tarefas pré-determinadas.
     Parâmetros são variáveis locais definidas entre os parênteses no tempo de declaração e representam as características passíveis de alteração.
     Argumentos são os valores passados para a função e representam os parâmetros.
@@ -179,7 +179,7 @@
 </article>
 
 <article>
-    Classes:
+    <h3>Classes:</h3>
     Objetos:
     Objeto é uma classe de dados que faz referência a um molde para um objeto real ou ficcional. Assim como objetos da vida real, os objetos na programação possuem atributos (que se refere as propriedades do objeto, como altura) e métodos (que se refere as ações desse objeto). Um exemplo de objeto em JavaScript seria:
     carro = {
@@ -198,17 +198,17 @@
 </article>
 
 <article>
-    Testes:
+    <h3>Testes:</h3>
 </article>
 
 <article>
-    Frameworks:
+    <h3>Frameworks:</h3>
 </article>
 
 <article>
-    Bibliotecas:
+    <h3>Bibliotecas:</h3>
 </article>
 
 <article>
-    Linguagens e Seus Usos:
+    <h3>Linguagens e Seus Usos:</h3>
 </article>
