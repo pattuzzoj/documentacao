@@ -106,13 +106,13 @@
 
 <article>
     <h3>Operadores:</h3>
-    Operadores agem como funções e operam sobre operandos (valores) realizando operações(cálculos, comparações etc).
-    Operador unário: possui 1 operando
-    Operador binário: possui 2 operandos
-    Operador ternário: possui 3 operandos
+    <p>Operadores agem como funções e operam sobre operandos (valores) realizando operações(cálculos, comparações etc).
+    Operador unário: possui 1 operando<br>
+    Operador binário: possui 2 operandos<br>
+    Operador ternário: possui 3 operandos</p>
 
-    Operador de negação: !false vira true - operador unário.<br>
-    Operador de soma: 5 + 4 vira 10 - operador binário.<br>
+    Operador de negação: !false vira true - operador unário.
+    Operador de soma: 5 + 4 vira 10 - operador binário.
     Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição () e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:).
 </article>
 
