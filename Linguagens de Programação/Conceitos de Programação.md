@@ -31,25 +31,25 @@ Paradigma Imperativo: no paradigma imperativo as instrunções são codificadas 
 Paradigma Declarativo:
 
 
-Depurador
+<h2>Depurador</h2>
 O depurador é um programa que analisa o código-fonte e verifica a existência de inconsistências (erros) nas intruções, como palavras reservadas usadas de forma incorreta.
 
 
-Interpretador e Compilador:
+<h2>Interpretador e Compilador:</h2>
 Tanto o interpretador quanto o compilador são programas que analisam e traduzem o código-fonte de uma linguagem de programação de alto nível para a linguagem de máquina. Geralmente uma linguagem de programação é interpretada ou compilada, mas há casos onde ocorre a compilação para uma linguagem intermediária e depois a interpretação para a linguagem de máquina.
 
 A diferença entre o interpretador e o compilador, é que o interpretador traduz e executa a cada linha de instrução, perdendo sua tradução anterior; enquanto o compilador traduz todas as instruções primeiro e depois executa, salvando a tradução.
 
 
-Comentários:
+<h2>Comentários:</h2>
 Comentários em um código-fonte servem para descrever trechos de código para facilitar o seu entendimento e sua posterior manutenção, pelo próprio programador ou por outro.
 
 
-Escopo:
+<h2>Escopo:</h2>
 O escopo são as áreas do código. Ela delimita até onde certas instruções são "visíveis", como variáveis e funções.
 
 
-Variáveis:
+<h2>Variáveis:</h2>
 Variáveis, em arquitetura de computadores, são etiquetas (nomes) que estão associadas a um endereço na memória principal (nos computadores comuns é a memória RAM); esta é uma definição mais técnica do que é uma variável, veremos agora uma definição mais tangível.
 Variáveis são como contêineres de navios. Possuem um identificador (em nosso caso, um nome); um tamanho e um tipo específico de mercadoria, o qual entendemos como "tipo de dado". Nós abrimos a porta do container e atribuimos um dado a variável com o operador de atribuição (o sinal de '=' é geralmente utilizado para isso nas linguagens modernas).
 
