@@ -106,8 +106,8 @@
 
 <article>
     <h3>Operadores:</h3>
-    <p>Operadores agem como funções e operam sobre operandos (valores) realizando operações(cálculos, comparações etc).
-    Operador unário: possui 1 operando<br>
+    <p>Operadores agem como funções e operam sobre operandos (valores) realizando operações(cálculos, comparações etc).<p>
+    <p>Operador unário: possui 1 operando<br>
     Operador binário: possui 2 operandos<br>
     Operador ternário: possui 3 operandos</p>
 
