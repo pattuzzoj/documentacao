@@ -152,7 +152,7 @@
 <article>
     <h3>Estruturas de Repetição:</h3>
     <p>Estruturas de repetição são estruturas que permitem a repetição de instruções.<p>
-    <p>estrutura #ENQUANTO#: identificada pela palavra reservada (WHILE), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.<br>
+    <p>estrutura ENQUANTO: identificada pela palavra reservada (WHILE), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.<br>
     estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.<br>
     estrutura PARA: identificada pela palavra reservada (FOR), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.<br>
     estrutura PARA EM: identificada pela palavra reservada (FOR IN),<br>
@@ -186,16 +186,16 @@
     Argumentos são os valores passados para a função e representam os parâmetros.
 
 
-    Funções Built-in:
-    Funções "Built-in" são funções embutidas na linguagem, prontas para uso pelo programador, como funções de entrada e saída e conversores de tipos de dados, entre outras.
+    <h4>Funções Built-in:</h4>
+    <p>Funções "Built-in" são funções embutidas na linguagem, prontas para uso pelo programador, como funções de entrada e saída e conversores de tipos de dados, entre outras.</p>
     
-    <p>console.log(): é uma função de saída que exibe valores no console do navegador.
+    console.log(): é uma função de saída que exibe valores no console do navegador.
     alert(): é uma função de saída que exibe valores em uma janela interativa.
     confirm(): é uma função de entrada e saída, onde há o pedido de confirmação de um dado ao usuário em uma janela interativa.
     prompt(): é uma função de entrada e saída, onde há uma saída e o usuário pode inserir dados em uma janela interativa.
     String(): é uma função de conversão de dados, converte valores em uma cadeia de caracteres.
     Number(): é uma função de conversão de dados, converte valores em números.
-    Boolean(): é uma função de conversão de dados, converte valores em um valor booleano.</p>
+    Boolean(): é uma função de conversão de dados, converte valores em um valor booleano.
 </article>
 
 <article>
