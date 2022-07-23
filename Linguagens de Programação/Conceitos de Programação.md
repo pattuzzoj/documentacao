@@ -271,6 +271,7 @@
 
 <article>
     <h3>Bibliotecas:</h3>
+    <p>Bibliotecas podem ser entendidas como uma coleção de subprogramas para utilização nas mais diversas aplicações.</p>
 </article>
 
 <article>
