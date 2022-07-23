@@ -55,7 +55,7 @@
 
 <article>
     <h3>Escopo:</h3>
-    O escopo são as áreas do código. Ela delimita até onde certas instruções são "visíveis", como variáveis e funções.
+    O escopo são áreas do código e delimitam até onde certas instruções são "visíveis", como variáveis e funções.
 </article>
 
 <article>
@@ -71,24 +71,23 @@
 
 <article>
     <h3>Tipagem:</h3>
-    Tipos de Dados:
-    Boolean: baseado na lógica booleana, representa valores verdadeiros ou falsos.
-    Number: representa números; inteiros ou com ponto decimal.
-    BigInt: representa exclusivamente números inteiros, mas de comprimento arbitrário.
-    String: representa uma cadeia de caracteres.
-    Object: representa um objeto.
-    Symbol: representa um identificador único.
-    Undefined: representa um valor ainda não definido.
-    Null: representa o vazio, é um valor nulo.
+    <h4>Tipos de Dados:</h4>
+
+    caractere - representa um caractere
+    string - representa uma cadeia de caracteres
+    inteiro - representa um número
+    ponto flutuante - representa um número decimal 
+    booleano - representa um valor booleano
 </article>
 
 <article>
     <h3>Estruturas de dados:</h3>
+    <p>Estruturas de dados representam uma coleção de valores e são uma forma de armazenar e gerir.</p>
 </article>
 
 <article>
     <h3>Caractere e Sequência de Escape:</h3>
-    Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.
+    <p>Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.</p>
     
     Insere uma barra: \\
     Insere uma tabulação: \t
@@ -110,7 +109,7 @@
     Operador de negação: !false vira true - operador unário.
     Operador de soma: 5 + 4 vira 10 - operador binário.
     Operador ternário: (3 > 2) ? instrução : instrução - operador ternário, verifica uma condição ()
-    e executa a primeira instrução se verdadeira, senão executa a segunda, após o sinal (:)
+    e executa a primeira instrução se verdadeira, senão executa a segunda
 </article>
 
 <article>
