@@ -190,14 +190,14 @@
         instrução;
     }
 <br>
-<p>estrutura PARA EM: identificada pela palavra reservada (FOR IN),</p>
+<p>estrutura PARA EM: identificada pela palavra reservada (FOR IN).</p>
 <p>Para cada índice de uma lista, a instrução interna é executada:</p>
 
     for (index in lista) {
         instrução;
     }
 <br>
-<p>estrutura PARA DE: identificada pela palavra reservada (FOR OF),</p>
+<p>estrutura PARA DE: identificada pela palavra reservada (FOR OF).</p>
 <p>Para cada valor de uma lista, a instrução interna é executada:</p>
 
     for (valor of lista) {
