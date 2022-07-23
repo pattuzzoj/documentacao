@@ -13,7 +13,8 @@
 
     debugger/depurador - causa uma interrupção total.
 
-    - Variáveis
+- Variáveis
+
     var - define uma variável global
     let - define uma variável de bloco
     const - define uma variável constante
