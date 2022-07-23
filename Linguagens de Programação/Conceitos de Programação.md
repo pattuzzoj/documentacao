@@ -80,8 +80,10 @@
     inteiro - representa um número
     ponto flutuante - representa um número decimal 
     booleano - representa um valor booleano
-    
+
 <h5>Tipos Compostos</h5>
+
+    twas
 </article>
 
 <article>
