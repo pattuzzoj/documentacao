@@ -160,11 +160,11 @@
 
     switch (caso) {
         valor: - se o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada.
-        instrução;
+            instrução;
         valor:  - se a comparação anterior for falsa e o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada.
-        intrução;
+            instrução;
         default: - se todas as comparações anteriores forem falsas, a instrução é executada.
-        intrução;
+            instrução;
     }
 </article>
 
