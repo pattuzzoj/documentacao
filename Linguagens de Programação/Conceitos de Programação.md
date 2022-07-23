@@ -75,7 +75,7 @@
 
     estática - na tipagem estática o tipo é declarado em tempo de codificação, podendo ou não sofrer alteração
     dinâmica - na tipagem dinâmica o tipo é associado em tempo de interpretação/compilação e/ou execução, podendo ou não sofrer alteração
-    <h4></h4>
+<h4></h4>
     <h4>Tipos de Dados:</h4>
     <p>Os tipos de dados podem ser primitivos ou compostos; tipos primitivos formam os tipos básicos da linguagem, enquanto os tipos compostos dependem de dois ou mais tipos primitivos em conjunto (não necessariamente tipos diferentes entre si).</p>
 <h5>Tipos Primitivos</h5>
