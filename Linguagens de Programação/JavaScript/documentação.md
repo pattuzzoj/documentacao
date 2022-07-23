@@ -35,44 +35,41 @@
     finally -
 
     continue -
-    break -
+    break - 
 
-    return -
+    return - retorna o valor de uma função
 </article>
 
 <article>
     <h3>Sintaxe e Semântica:</h3>
-    <p>A sintaxe define um conjunto de regras que visa o uso correto das palavras reservadas na criação de código. Depois do código ser escrito, uma verificação é feita para checar se a sintaxe está de acordo com o esperado. <br>
-    A semântica trata-se do significado agregado às palavras reservadas da linguagem e a relação que possuem entre si.</p>
 </article>
 
 <article>
     <h3>Código-fonte:</h3>
-    <p>O código-fonte é a versão do código em seu estado puro, formado por algoritmos e estruturado utilizando as palavras reservadas da linguagem.</p>
 </article>
 
 <article>
     <h3>Paradigma de Programação</h3>
-    <p>Paradigmas de Programação são formas de classificação das linguagens, que por suas características podem ser definidas e agrupadas em diferentes paradigmas. Uma linguagem pode ser classificada em vários paradigmas.</p>
-    <h5>Alguns exemplos são:</h5>
-    <p>Paradigma Imperativo: no paradigma imperativo as instrunções são codificadas de forma sequencial, de cima para baixo, seguindo uma ordem lógica.<br>
-    Paradigma Declarativo:</p>
 </article>
 
 <article>
     <h3>Depurador</h3>
-    O depurador é um programa que analisa o código-fonte e verifica a existência de inconsistências (erros) nas intruções, como palavras reservadas usadas de forma incorreta.
 </article>
 
 <article>
     <h3>Interpretador e Compilador:</h3>
-    <p>Tanto o interpretador quanto o compilador são programas que analisam e traduzem o código-fonte de uma linguagem de programação de alto nível para a linguagem de máquina. Geralmente uma linguagem de programação é interpretada ou compilada, mas há casos onde ocorre a compilação para uma linguagem intermediária e depois a interpretação para a linguagem de máquina.</p>
-    <p>A diferença entre o interpretador e o compilador, é que o interpretador traduz e executa a cada linha de instrução, perdendo sua tradução anterior; enquanto o compilador traduz todas as instruções primeiro e depois executa, salvando a tradução.</p>
 </article>
 
 <article>
     <h3>Comentários:</h3>
-    Comentários em um código-fonte servem para descrever trechos de código para facilitar o seu entendimento e sua posterior manutenção, pelo próprio programador ou por outro.
+    <p>Comentários podem ser inline e </p>
+
+    // Comentário em linha
+    /*
+    Comentário
+    em
+    bloco
+    */
 </article>
 
 <article>
