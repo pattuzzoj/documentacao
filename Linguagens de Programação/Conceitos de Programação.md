@@ -70,13 +70,18 @@
 
 <article>
     <h3>Tipagem:</h3>
+    <p>Tipagem se refere ao processo de atribução de tipo ao dado. Esse process</p>
     <h4>Tipos de Dados:</h4>
+    <p>Os tipos de dados podem ser primitivos ou compostos; tipos primitivos formam os tipos básicos da linguagem, enquanto os tipos compostos dependem de dois ou mais tipos primitivos em conjunto.</p>
+<h5>Tipos Primitivos</h5>
 
     caractere - representa um caractere
     string - representa uma cadeia de caracteres
     inteiro - representa um número
     ponto flutuante - representa um número decimal 
     booleano - representa um valor booleano
+    
+<h5>Tipos Compostos</h5>
 </article>
 
 <article>
