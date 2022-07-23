@@ -169,18 +169,18 @@
     <h3>Estruturas de Repetição:</h3>
     <p>Estruturas de repetição são estruturas que permitem a repetição de instruções.<p>
     <p>estrutura ENQUANTO: identificada pela palavra reservada (WHILE), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.</p>
+    <p>a condição é analisada, se 5 for menor que 10, a instrução interna é executada e enquanto 5 for menor que 10, a instrução se repetirá:</p>
 
-    a condição é analisada, se 5 for menor que 10, a instrução interna é executada e enquanto 5 for menor que 10, a instrução se repetirá
     while (5 < 10) {
         instrução;
     }
     
 <p>>estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.</p>
+    <p>a instrução interna é executada e em seguida analisada a condição; caso a condição seja verdadeira, a instrução é executada novamente, reiniciando o loop</p>
 
-a instrução interna é executada e em seguida analisada a condição; caso a condição seja verdadeira, a instrução é executada novamente, reiniciando o loop
-do {
-    instrução;
-} while (condição)
+    do {
+        instrução;
+    } while (condição)
 
 <p>estrutura PARA: identificada pela palavra reservada (FOR), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.</p>
 
