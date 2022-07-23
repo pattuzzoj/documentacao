@@ -212,14 +212,6 @@
     Argumentos são os valores passados para a função e representam os parâmetros.</p>
     <h4>Funções Built-in:</h4>
     <p>Funções "Built-in" são funções embutidas na linguagem, prontas para uso pelo programador, como funções de entrada e saída e conversores de tipos de dados, entre outras.</p>
-    
-    console.log(): é uma função de saída que exibe valores no console do navegador.
-    alert(): é uma função de saída que exibe valores em uma janela interativa.
-    confirm(): é uma função de entrada e saída, onde há o pedido de confirmação de um dado ao usuário em uma janela interativa.
-    prompt(): é uma função de entrada e saída, onde há uma saída e o usuário pode inserir dados em uma janela interativa.
-    String(): é uma função de conversão de dados, converte valores em uma cadeia de caracteres.
-    Number(): é uma função de conversão de dados, converte valores em números.
-    Boolean(): é uma função de conversão de dados, converte valores em um valor booleano.
 </article>
 
 <article>
