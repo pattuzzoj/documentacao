@@ -64,9 +64,8 @@
     Variáveis são como contêineres de navios. Possuem um identificador (em nosso caso, um nome); um tamanho e um tipo específico de mercadoria, o qual entendemos como "tipo de dado". Nós abrimos a porta do container e atribuimos um dado a variável com o operador de atribuição (o sinal de '=' é geralmente utilizado para isso nas linguagens modernas).</p>
     <h4>Tipos de Variáveis:</h4>
 
-    var: é uma variável global que tem validade independente do escopo em que estiver.
-    let: é uma variável local que só tem validade dentro do escopo em que foi declarada, como em um escopo de função.
-    const: é uma variável constante que possui o seu valor fixo, não passível de alteração.
+    variável - representa uma variável de valor dinâmico
+    constante - representa uma variável de valor constante
 </article>
 
 <article>
