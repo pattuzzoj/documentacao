@@ -145,20 +145,21 @@
     <br>
     <p>A condição na estrutura SE é analisada e SE for verdadeira, a instrução interna é executada; SENÃO, a condição na estrutura SENÃO SE é analisada e SE for verdadeira, a instrução interna é executada; SENÃO, a instrução interna da estrutura SENÃO é executada, em último caso.</p>
 
-    if (condição) { - se 5 for maior que 8, a instrução é executada.
-        instrução;
+    if (condição) {
+        instrução
     }
-    else if (condição) { - se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
-        instrução;
+    else if (condição) {
+        instrução
     }
-    else { - se todas as estruturas anteriores não executarem, a instrução é executada.
-        instrução;
+    else {
+        instrução
     }
 
 <br>
 <p>estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.</p>
+<p>A condição na estrutura SE SENÃO SE é analisada e SE for verdadeira, a primeira instrução após o símbolo (?) é executada; SENÃO, SE a condição for falsa, a última instrução é executada.</p>
 
-    (5 > 8) ? instrução : instrução - se 5 for maior que 8, a primeira instrução é executada, senão, a segunda instrução é executada.
+    (condição) ? instrução : instrução
 
 <br>
 <p>estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.</p>
@@ -180,14 +181,14 @@
     <p>A condição é analisada, se a condição é verdadeira, a instrução interna é executada e enquanto a condição for verdadeira a instrução se repetirá:</p>
 
     while (condição) {
-        instrução;
+        instrução
     }
 <br>
 <p>estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.</p>
 <p>A instrução interna é executada e em seguida analisada a condição; caso a condição seja verdadeira, a instrução é executada novamente, reiniciando o loop:</p>
 
     do {
-        instrução;
+        instrução
     } while (condição)
 
 <br>
@@ -195,21 +196,21 @@
 <p>Para a variável interna, enquanto a condição é verdadeira, a instrução interna é executada e a variável interna é modificada:</p>
 
     for (variável interna, condição, manipulação da variável interna) {
-        instrução;
+        instrução
     }
 <br>
 <p>estrutura PARA EM: identificada pela palavra reservada (FOR IN).</p>
 <p>Para cada índice de uma lista, a instrução interna é executada:</p>
 
     for (index in lista) {
-        instrução;
+        instrução
     }
 <br>
 <p>estrutura PARA DE: identificada pela palavra reservada (FOR OF).</p>
 <p>Para cada valor de uma lista, a instrução interna é executada:</p>
 
     for (valor of lista) {
-        instrução;
+        instrução
     }
 </article>
 
