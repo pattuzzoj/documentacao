@@ -274,11 +274,14 @@
 
 <article>
     <h3>Linguagens e Seus Usos:</h3>
-
-    C++ - Programas de computador, Sistemas operacionais, Desenvolvimento de aplicativos móveis, Desenvolvimento de videogames, Desenvolvimento de aplicações server-side e client-side, Machine learning
-    Java - Desenvolvimento móvel, Desenvolvimento de apps, Aplicações desktop, Aplicações web, Desenvolvimento de jogos, Machine learning e computação científica
-    Python - Desenvolvimento web back-end, Aplicações desktop, Ciência de dados, Automação, Aplicações de deep learning, Machine learning e computação científica
-    C# - Aplicações web, Aplicações móveis, Desenvolvimento de jogos e desenvolvimento de softwares de realidade virtual, Aplicações Linux e Mac
-    PHP - Desenvolvimento web, Aplicações desktop, Programas de computador
+    
     JavaScript - Desenvolvimento web front-end, Desenvolvimento de jogos, Aplicações web
+    
+    PHP - Desenvolvimento web, Aplicações desktop, Programas de computador
+    
+    C# - Aplicações web, Aplicações móveis, Desenvolvimento de jogos e desenvolvimento de softwares de realidade virtual, Aplicações Linux e Mac
+    
+    Python - Desenvolvimento web back-end, Aplicações desktop, Ciência de dados, Automação, Aplicações de deep learning, Machine learning e computação científica
+ 
+    C++ - Programas de computador, Sistemas operacionais, Desenvolvimento de aplicativos móveis, Desenvolvimento de videogames, Desenvolvimento de aplicações server-side e client-side, Machine learning
 </article>
