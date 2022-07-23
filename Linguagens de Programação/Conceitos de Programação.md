@@ -175,7 +175,7 @@
         instrução;
     }
     
-<p>>estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.</p>
+<p>estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.</p>
 <p>A instrução interna é executada e em seguida analisada a condição; caso a condição seja verdadeira, a instrução é executada novamente, reiniciando o loop:</p>
 
     do {
