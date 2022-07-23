@@ -170,28 +170,31 @@
     <p>Estruturas de repetição são estruturas que permitem a repetição de instruções.<p>
     <p>estrutura ENQUANTO: identificada pela palavra reservada (WHILE), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.</p>
 
-    Enquanto: while (condição) {
+    while (condição) {
         código
     }
 
 <p>>estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.</p>
-<p>estrutura PARA: identificada pela palavra reservada (FOR), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.</p>
-<p>estrutura PARA EM: identificada pela palavra reservada (FOR IN),</p>
-<p>estrutura PARA DE: identificada pela palavra reservada (FOR OF),</p>
 
-    Faça enquanto: do {
+    do {
         código
     } while (condição)
 
-    Para: for (declaração_de_variável, condição, manipulação_de_variável) {
+<p>estrutura PARA: identificada pela palavra reservada (FOR), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.</p>
+
+    for (declaração_de_variável, condição, manipulação_de_variável) {
         código
     }
 
-    Para em: for (index in object) {
+<p>estrutura PARA EM: identificada pela palavra reservada (FOR IN),</p>
+
+    for (index in object) {
         código
     }
 
-    Para de: for (valor of object) {
+<p>estrutura PARA DE: identificada pela palavra reservada (FOR OF),</p>
+
+    for (valor of object) {
         código
     }
 </article>
