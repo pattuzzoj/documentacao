@@ -169,34 +169,37 @@
     <h3>Estruturas de Repetição:</h3>
     <p>Estruturas de repetição são estruturas que permitem a repetição de instruções.<p>
     <p>estrutura ENQUANTO: identificada pela palavra reservada (WHILE), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.</p>
-    <p>a condição é analisada, se 5 for menor que 10, a instrução interna é executada e enquanto 5 for menor que 10, a instrução se repetirá:</p>
+    <p>A condição é analisada, se a condição é verdadeira, a instrução interna é executada e enquanto a condição for verdadeira a instrução se repetirá:</p>
 
-    while (5 < 10) {
+    while (condição) {
         instrução;
     }
     
 <p>>estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.</p>
-    <p>a instrução interna é executada e em seguida analisada a condição; caso a condição seja verdadeira, a instrução é executada novamente, reiniciando o loop</p>
+<p>A instrução interna é executada e em seguida analisada a condição; caso a condição seja verdadeira, a instrução é executada novamente, reiniciando o loop:</p>
 
     do {
         instrução;
     } while (condição)
 
 <p>estrutura PARA: identificada pela palavra reservada (FOR), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.</p>
+<p>Para a variável interna, enquanto a condição é verdadeira, a instrução interna é executada e a variável interna é modificada:</p>
 
-    for (declaração_de_variável, condição, manipulação_de_variável) {
+    for (variável interna, condição, manipulação da variável interna) {
         instrução;
     }
 
 <p>estrutura PARA EM: identificada pela palavra reservada (FOR IN),</p>
+<p>Para cada índice de uma lista, a instrução interna é executada:</p>
 
-    for (index in object) {
+    for (index in lista) {
         instrução;
     }
 
 <p>estrutura PARA DE: identificada pela palavra reservada (FOR OF),</p>
+<p>Para cada valor de uma lista, a instrução interna é executada:</p>
 
-    for (valor of object) {
+    for (valor of lista) {
         instrução;
     }
 </article>
