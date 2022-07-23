@@ -167,11 +167,11 @@
 
     switch (caso) {
         valor:
-            instrução;
+            instrução
         valor:
-            instrução;
+            instrução
         default:
-            instrução;
+            instrução
     }
 </article>
 
@@ -232,7 +232,7 @@
     carro = {
         marca: "FIAT", - A marca é um atributo do objeto carro e possui como valor FIAT
         acelerar() - acelerar() é um método do objeto carro que faz o carro ganhar mais velocidade
-    };
+    }
     
 <article>
     <h4>Programação Orientada a Objetos:</h4>
