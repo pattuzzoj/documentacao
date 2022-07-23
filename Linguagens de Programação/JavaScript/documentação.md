@@ -74,7 +74,6 @@
 
 <article>
     <h3>Escopo:</h3>
-    O escopo são as áreas do código. Ela delimita até onde certas instruções são "visíveis", como variáveis e funções.
 </article>
 
 <article>
@@ -90,15 +89,16 @@
 
 <article>
     <h3>Tipagem:</h3>
-    Tipos de Dados:
-    Boolean: baseado na lógica booleana, representa valores verdadeiros ou falsos.
-    Number: representa números; inteiros ou com ponto decimal.
+    <h4>Tipos de Dados:</h4>
+
+    Boolean: representa valores verdadeiros ou falsos.
+    Number: representa números, inteiros e com ponto decimal.
     BigInt: representa exclusivamente números inteiros, mas de comprimento arbitrário.
     String: representa uma cadeia de caracteres.
     Object: representa um objeto.
     Symbol: representa um identificador único.
-    Undefined: representa um valor ainda não definido.
-    Null: representa o vazio, é um valor nulo.
+    Undefined: representa um valor indefinido.
+    Null: representa um valor nulo.
 </article>
 
 <article>
