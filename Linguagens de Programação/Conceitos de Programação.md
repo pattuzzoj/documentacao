@@ -138,14 +138,17 @@
 <article>
     <h3>Estruturas de Condição:</h3>
     <p>Estruturas condicionais são estruturas que controlam o fluxo de execução de um programa, permitindo a bifurcação no fluxo de execução; ou seja, permite o controle e permite a execução de trechos de códigos diferentes dependendo da condição.</p>
+    <br>
     <p>estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.</p>
     <p>estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.</p>
     <p>estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem.</p>
-    
-    if (5 > 8) { - se 5 for maior que 8, a instrução é executada.
+    <br>
+    <p>A condição na estrutura SE é analisada e SE for verdadeira, a instrução interna é executada; SENÃO, a condição na estrutura SENÃO SE é analisada e SE for verdadeira, a instrução interna é executada; SENÃO, a instrução interna da estrutura SENÃO é executada, em último caso.</p>
+
+    if (condição) { - se 5 for maior que 8, a instrução é executada.
         instrução;
     }
-    else if (20 > 80) { - se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
+    else if (condição) { - se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
         instrução;
     }
     else { - se todas as estruturas anteriores não executarem, a instrução é executada.
