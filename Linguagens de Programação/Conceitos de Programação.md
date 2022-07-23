@@ -71,12 +71,15 @@
 <article>
     <h3>Sistema de Tipos</h3>
     <p>Sistema de tipos se refere ao conjunto de regras associadas ao processo de atribuição de tipo às estruturas da linguagem, como variáveis e funções. Esse conjunto de regras define que tipo de valores as estruturas podem guardar e/ou retornar.</p>
-    <h4>Tipagem:</h4>
+    
+<h4>Tipagem:</h4>
 
     estática - na tipagem estática o tipo é declarado em tempo de codificação
     dinâmica - na tipagem dinâmica o tipo é associado em tempo de interpretação/compilação e/ou execução
-<h4></h4>
-    <h4>Tipos de Dados:</h4>
+    forte - na tipagem forte, uma variável só pode receber um valor que corresponda ao seu tipo
+    fraca - na tipagem fraca, uma variável pode receber qualquer valor, mudando o seu tipo
+
+<h4>Tipos de Dados:</h4>
     <p>Os tipos de dados podem ser primitivos ou compostos; tipos primitivos formam os tipos básicos da linguagem, enquanto os tipos compostos dependem de dois ou mais tipos primitivos em conjunto (não necessariamente tipos diferentes entre si).</p>
 <h5>Tipos Primitivos</h5>
 
@@ -102,9 +105,9 @@
     <h3>Caractere e Sequência de Escape:</h3>
     <p>Um caractere de escape é um caractere utilizado para alterar o significado do caractere sucessor a ele; no JavaScript e em algumas outras linguagens, este caractere é a barra invertida (\). Já sequência de escape se refere ao subconjunto de caracteres com o caractere de escape que tem o seu significado modificado.</p>
     
-    Insere uma barra: \\
-    Insere uma tabulação: \t
-    Insere uma quebra de linha: \n
+    \\ - insere uma barra
+    \t - insere uma tabulação
+    \n - insere uma quebra de linha
 </article>
 
 <article>
