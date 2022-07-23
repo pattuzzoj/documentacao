@@ -62,13 +62,13 @@
 
 <article>
     <h3>Comentários:</h3>
-    <p>Comentários podem ser inline e </p>
+    <p>Comentários podem ser in </p>
 
     // Comentário em linha
+
     /*
     Comentário
-    em
-    bloco
+    em bloco
     */
 </article>
 
