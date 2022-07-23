@@ -70,7 +70,7 @@
 
 <article>
     <h3>Sistema de Tipos</h3>
-    <p>Sistema de tipos se refere ao conjunto de regras associadas ao processo de atribuição de tipo às estruturas da linguagem, como variáveis e funções. Esse conjunto de regras define que tipo de valores as estruturas podem guardar e/ou retornar, podendo ser tipos estáticos se o tipo não puder ser alterado e dinâmicos, caso o tipo varie conforme a execução.</p>
+    <p>Sistema de tipos se refere ao conjunto de regras associadas ao processo de atribuição de tipo às estruturas da linguagem, como variáveis e funções. Esse conjunto de regras define que tipo de valores as estruturas podem guardar e/ou retornar.</p>
     <h4>Tipagem:</h4>
 
     estática - na tipagem estática o tipo é declarado em tempo de codificação, podendo ou não sofrer alteração

@@ -10,8 +10,9 @@ Comentários
 Escopo
 Variáveis
     Tipos de Variáveis
-Tipagem
-Tipos de Dados
+Sistema de Tipos
+    Tipagem
+    Tipos de Dados
 Estruturas de dados XX
 Caractere e Sequência de Escape
 Entrada e Saída de Dados
