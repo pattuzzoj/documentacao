@@ -77,7 +77,7 @@
     estática - na tipagem estática o tipo é declarado em tempo de codificação
     dinâmica - na tipagem dinâmica o tipo é associado em tempo de interpretação/compilação e/ou execução
     forte - na tipagem forte, uma variável só pode receber um valor que corresponda ao seu tipo
-    fraca - na tipagem fraca, uma variável pode receber qualquer valor, mudando o seu tipo
+    fraca - na tipagem fraca, uma variável pode receber qualquer valor, mesmo já tendo sido declarada com um tipo anteriormente
 
 <h4>Tipos de Dados:</h4>
     <p>Os tipos de dados podem ser primitivos ou compostos; tipos primitivos formam os tipos básicos da linguagem, enquanto os tipos compostos dependem de dois ou mais tipos primitivos em conjunto (não necessariamente tipos diferentes entre si).</p>
