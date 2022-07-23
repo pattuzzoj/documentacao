@@ -154,18 +154,18 @@
 
 <p>estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.</p>
 
-(5 > 8) ? instrução : instrução - se 5 for maior que 8, a primeira instrução é executada, senão, a segunda instrução é executada.
+    (5 > 8) ? instrução : instrução - se 5 for maior que 8, a primeira instrução é executada, senão, a segunda instrução é executada.
 
 <p>estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.</p>
 
-switch (caso) {
-    valor: - se o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada.
-    instrução;
-    valor:  - se a comparação anterior for falsa e o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada.
-    intrução;
-    default: - se todas as comparações anteriores forem falsas, a instrução é executada.
-    intrução;
-}
+    switch (caso) {
+        valor: - se o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada.
+        instrução;
+        valor:  - se a comparação anterior for falsa e o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada.
+        intrução;
+        default: - se todas as comparações anteriores forem falsas, a instrução é executada.
+        intrução;
+    }
 </article>
 
 <article>
