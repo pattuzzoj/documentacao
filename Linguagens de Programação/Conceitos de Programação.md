@@ -34,7 +34,7 @@
     <p>Paradigmas de Programação são formas de classificar as linguagens de programação baseando em suas caracteristícas e funcionalidades. As linguagens podem ser definidas e agrupadas em diferentes paradigmas e possuir mais de um paradigma.</p>
     <h5>Alguns exemplos são:</h5>
     
-    imperativo - no paradigma imperativo as instrunções são codificadas de forma sequencial, de cima para baixo, seguindo uma ordem lógica
+    imperativo - no paradigma imperativo as instrunções são codificadas de forma sequencial, seguindo uma ordem lógica
     funcional - no paradigma funcional as instruções são codificadas dentro de funções
     orientada a objetos - no paradigma orientada a objetos a codificação é inteiramente voltada a contrução e manipulação de objetos
 </article>
