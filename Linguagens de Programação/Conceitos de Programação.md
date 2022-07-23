@@ -146,15 +146,15 @@
 
 <p>estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.</p>
 
-else if (20 > 80) { - se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
-    instrução;
-}
+    else if (20 > 80) { - se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
+        instrução;
+    }
 
 <p>estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem</p>
 
-else { - se todas as estruturas anteriores não executarem, a instrução é executada.
-    instrução;
-}
+    else { - se todas as estruturas anteriores não executarem, a instrução é executada.
+        instrução;
+    }
 
 <p>estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.</p>
 
