@@ -72,7 +72,7 @@
     <h3>Tipagem:</h3>
     <p>Tipagem se refere ao processo de atribução de tipo ao dado. Esse process</p>
     <h4>Tipos de Dados:</h4>
-    <p>Os tipos de dados podem ser primitivos ou compostos; tipos primitivos formam os tipos básicos da linguagem, enquanto os tipos compostos dependem de dois ou mais tipos primitivos em conjunto.</p>
+    <p>Os tipos de dados podem ser primitivos ou compostos; tipos primitivos formam os tipos básicos da linguagem, enquanto os tipos compostos dependem de dois ou mais tipos primitivos em conjunto (não necessariamente tipos diferentes entre si).</p>
 <h5>Tipos Primitivos</h5>
 
     caractere - representa um caractere
@@ -83,7 +83,9 @@
 
 <h5>Tipos Compostos</h5>
 
-    twas
+    lista - representa uma coleção de dados acessíveis por um índice
+    conjunto - representa uma coleção de dados sem repetição
+    objeto - representa uma abstração de um objeto e contém atributos, valores e métodos
 </article>
 
 <article>
