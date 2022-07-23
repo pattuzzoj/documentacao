@@ -174,7 +174,7 @@
     while (condição) {
         instrução;
     }
-    
+<br>
 <p>estrutura FAÇA-ENQUANTO: identificada pela palavra reservada (DO WHILE), possui uma condição a ser analisada após a primeira execução e executa este mesmo trecho de código enquanto a condição é verdadeira.</p>
 <p>A instrução interna é executada e em seguida analisada a condição; caso a condição seja verdadeira, a instrução é executada novamente, reiniciando o loop:</p>
 
@@ -182,20 +182,21 @@
         instrução;
     } while (condição)
 
+<br>
 <p>estrutura PARA: identificada pela palavra reservada (FOR), possui uma condição a ser analisada e um trecho de código a executar enquanto a condição é verdadeira.</p>
 <p>Para a variável interna, enquanto a condição é verdadeira, a instrução interna é executada e a variável interna é modificada:</p>
 
     for (variável interna, condição, manipulação da variável interna) {
         instrução;
     }
-
+<br>
 <p>estrutura PARA EM: identificada pela palavra reservada (FOR IN),</p>
 <p>Para cada índice de uma lista, a instrução interna é executada:</p>
 
     for (index in lista) {
         instrução;
     }
-
+<br>
 <p>estrutura PARA DE: identificada pela palavra reservada (FOR OF),</p>
 <p>Para cada valor de uma lista, a instrução interna é executada:</p>
 
