@@ -1,21 +1,20 @@
+
+
 "use strict";
 
 // Palavras Reservadas
 debugger: causa uma interrupção no código;
 
-var variavel = "Eu sou uma variável irrestrita";
-let nome_da_variavel = "Eu sou uma variável restrita ao bloco em que fui criada";
-const nome_da_variavel = "Eu sou uma variável de valor constante";
+var: "Eu sou uma variável irrestrita";
+let: "Eu sou uma variável restrita ao bloco em que fui criada";
+const: "Eu sou uma variável de valor constante";
 
 if: "Em Português: se, define uma estrutura de condição: SE CONDIÇÃO É VERDADEIRA, ENTÃO FAÇA.";
 else if: "Em Português: senão se, define uma estrutura de condição: SENÃO, SE CONDIÇÃO É VERDADEIRA, ENTÃO FAÇA.";
 else: "Em Português: senão, define uma estrutura de condição: SENÃO, ENTÃO FAÇA.";
-
-
 switch: "Define uma estrutura de condição: KEY, CASO KEY, ENTÃO FAÇA"; 
 case: Define um caso correspondente;
 default: Define um caso padrão;
-
 try
 throw
 catch
@@ -54,6 +53,10 @@ Object: objeto
 // Estruturas de Dados
 Objeto: variável = {chave : valor,} ou new Object()
 Array: variável = [valores] ou new Array(valores)
+Map:
+Set:
+
+
 Symbol()
 Symbol.for()
 Symbol.keyFor()
@@ -139,9 +142,9 @@ Função de seta: (parâmetros) => {código}
 Math: contém funções matemáticas
 
 // Funções Built-in
-String(valor) transforma o valor em string
-Number(valor) transforma o valor em número
-Boolean(valor) transforma o valor em booleano
+String(valor) converte um valor em string
+Number(valor) converte um valor em número
+Boolean(valor) converte um valor em booleano
 
 numero..toString(base) transforma o número em uma string na base numérica indicada
 numero.toFixed(n) especifica a (n) quantidade de casas decimais de um número.
@@ -201,3 +204,17 @@ Math.random() retorna um número aleatório de 0 a 1 (sem incluir o 1)
 Math.max() retorna o maior número de uma lista seperada por vírgula.
 Math.min() retorna o menor número de uma lista seperada por vírgula.
 Math.pow() retorna um valor elevado a uma dada potência
+
+
+
+
+
+
+console.log(): é uma função de saída que exibe valores no console.
+alert(): é uma função de saída que exibe valores em uma janela interativa.
+confirm(): é uma função de entrada e saída, onde há o pedido de confirmação de um dado ao usuário em uma janela interativa.
+prompt(): é uma função de entrada e saída, onde há uma saída e o usuário pode inserir dados em uma janela interativa.
+
+setTimeout(func, delay, args...) especifica um delay ao chamar uma função.
+setInterval(func, delay, args...) especifica um delay ao chamar uma função e a repete no mesmo intervalo.
+clearTimeout(id) cancela a execução de um temporizador pelo ID indicado.
