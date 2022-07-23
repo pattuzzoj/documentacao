@@ -73,8 +73,8 @@
     <p>Sistema de tipos se refere ao conjunto de regras associadas ao processo de atribuição de tipo às estruturas da linguagem, como variáveis e funções. Esse conjunto de regras define que tipo de valores as estruturas podem guardar e/ou retornar.</p>
     <h4>Tipagem:</h4>
 
-    estática - na tipagem estática o tipo é declarado em tempo de codificação, podendo ou não sofrer alteração
-    dinâmica - na tipagem dinâmica o tipo é associado em tempo de interpretação/compilação e/ou execução, podendo ou não sofrer alteração
+    estática - na tipagem estática o tipo é declarado em tempo de codificação
+    dinâmica - na tipagem dinâmica o tipo é associado em tempo de interpretação/compilação e/ou execução
 <h4></h4>
     <h4>Tipos de Dados:</h4>
     <p>Os tipos de dados podem ser primitivos ou compostos; tipos primitivos formam os tipos básicos da linguagem, enquanto os tipos compostos dependem de dois ou mais tipos primitivos em conjunto (não necessariamente tipos diferentes entre si).</p>
