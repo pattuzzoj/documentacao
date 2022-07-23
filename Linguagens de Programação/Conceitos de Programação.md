@@ -163,7 +163,7 @@
 
 <br>
 <p>estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.</p>
-<p>Se um dos valores internos corresponder ao caso, a instrução interna é executada; senão, a instrução padrão é executada.</p>
+<p>Se um dos valores internos corresponder ao caso, a instrução interna desse valor é executada; senão, a instrução padrão é executada.</p>
 
     switch (caso) {
         valor:
