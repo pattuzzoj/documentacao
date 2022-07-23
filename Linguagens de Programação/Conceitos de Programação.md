@@ -85,7 +85,7 @@
 
     lista - representa uma coleção de dados acessíveis por um índice
     conjunto - representa uma coleção de dados sem repetição
-    objeto - representa uma abstração de um objeto e contém atributos, valores e métodos
+    objeto - representa uma abstração de um objeto, formado por atributos, valores e métodos
 </article>
 
 <article>
