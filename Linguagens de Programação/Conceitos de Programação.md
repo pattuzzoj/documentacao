@@ -156,8 +156,8 @@
     }
 
 <br>
-<p>estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.</p>
-<p>A condição na estrutura SE SENÃO SE é analisada e SE for verdadeira, a primeira instrução após o símbolo (?) é executada; SENÃO, SE a condição for falsa, a última instrução é executada.</p>
+<p>estrutura SE, SENÃO: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.</p>
+<p>A condição na estrutura SE, SENÃO é analisada e SE for verdadeira, a primeira instrução após o símbolo (?) é executada; SENÃO, a última instrução é executada.</p>
 
     (condição) ? instrução : instrução
 
