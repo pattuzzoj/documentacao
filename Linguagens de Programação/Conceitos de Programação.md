@@ -112,7 +112,12 @@
 
 <article>
     <h3>Entrada e Saída de Dados:</h3>
-    Entrada e saída de dados se refere ao processo de captura ou inserção e de transmissão ou exibição de dados. Eletrônicos podem fazê-lo utilizando sensores ou paineis de controle, e na programação temos algumas funções básicas, como input("função de captura") e print("função de exibição") em Python.
+    Entrada e saída de dados se refere ao processo de captura ou inserção e de transmissão ou exibição de dados. Eletrônicos podem fazê-lo utilizando sensores ou paineis de controle, e na programação temos algumas funções básicas, como:
+    
+    input() - função de captura
+    print() - função de exibição
+
+<p>Exemplo em Python.</p>
 </article>
 
 <article>
