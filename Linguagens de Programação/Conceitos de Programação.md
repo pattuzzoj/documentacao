@@ -30,7 +30,7 @@
 </article>
 
 <article>
-    <h3>Paradigma de Programação</h3>
+    <h3>Paradigmas de Programação</h3>
     <p>Paradigmas de Programação são formas de classificar as linguagens de programação baseando em suas caracteristícas e funcionalidades. As linguagens podem ser definidas e agrupadas em diferentes paradigmas e possuir mais de um paradigma.</p>
     <h5>Alguns exemplos são:</h5>
     
@@ -138,24 +138,29 @@
 <article>
     <h3>Estruturas de Condição:</h3>
     Estruturas condicionais são estruturas que controlam o fluxo de execução de um programa, permitindo a bifurcação no fluxo de execução; ou seja, permite o controle e permite a execução de trechos de códigos diferentes dependendo da condição.
-    <p>estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.<br>
-    estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.<br>
-    estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem.<br>
-    estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.<br>
-    estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.
-    </p>
+    <p>estrutura SE: identificada pela palavra reservada (if), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira.</p>
 
-    if (5 > 8) { - se 5 for maior que 8, a instrução é executada.
-        instrução;
-    }
-    else if (20 > 80) { - se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
-        instrução;
-    }
-    else { - se todas as estruturas anteriores não executarem, a instrução é executada.
-        instrução;
-    }
+        if (5 > 8) { - se 5 for maior que 8, a instrução é executada.
+            instrução;
+        }
+
+<p>estrutura SENÃO SE: identificada pela palavra reservada (else if), possui uma condição a ser analisada e um trecho de código a executar se as estruturas anteriores não executarem e a condição for verdadeira.</p>
+
+else if (20 > 80) { - se a estrutura anterior não executar, a verificação ocorre: se 20 for maior que 80, a instrução é executada.
+    instrução;
+}
+
+<p>estrutura SENÃO: identificada pela palavra reservada (else), possui um trecho de código a executar se as estruturas anteriores não executarem</p>
+
+else { - se todas as estruturas anteriores não executarem, a instrução é executada.
+    instrução;
+}
+
+<p>estrutura SE SENÃO SE: identificada pelo símbolo (?), possui uma condição a ser analisada e um trecho de código a executar se a condição for verdadeira e se a condição for falsa.</p>
 
     (5 > 8) ? instrução : instrução - se 5 for maior que 8, a primeira instrução é executada, senão, a segunda instrução é executada.
+
+<p>estrutura SWITCH: identificada pela palavra reservada (switch), possui um valor de caso a ser comparado em sua estrutura interna.</p>
 
     switch (caso) {
         valor: - se o valor de caso for igual ao valor interno desta linha, a instrução abaixo é executada.
