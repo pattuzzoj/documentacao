@@ -266,6 +266,7 @@
 
 <article>
     <h3>Frameworks:</h3>
+    <p>Frameworks são pedaços de códigos que oferecem funcionalidades genéricas.</p>
 </article>
 
 <article>
@@ -285,3 +286,8 @@
  
     C++ - Programas de computador, Sistemas operacionais, Desenvolvimento de aplicativos móveis, Desenvolvimento de videogames, Desenvolvimento de aplicações server-side e client-side, Machine learning
 </article>
+
+Pessoal, aqui vos apresento uma documentação básica sobre os conceitos presentes em linguagens de programação:
+https://github.com/pattuzzoj/documentacao/blob/main/Linguagens%20de%20Programa%C3%A7%C3%A3o/Conceitos%20de%20Programa%C3%A7%C3%A3o.md
+
+Acessem e deem um feedback.
