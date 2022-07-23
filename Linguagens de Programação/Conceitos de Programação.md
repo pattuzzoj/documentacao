@@ -69,8 +69,11 @@
 </article>
 
 <article>
-    <h3>Tipagem:</h3>
-    <p>Tipagem se refere ao processo de atribução de tipo ao dado. Esse process</p>
+    <h3>Sistema de Tipos</h3>
+    <p>Sistema de tipos se refere ao conjunto de regras associadas ao processo de atribuição de tipo às estruturas da linguagem, como variáveis e funções.</p>
+    <h4>Tipagem:</h4>
+    <p>Tipagem se refere ao processo de atribução de tipo; podendo se atribuir o tipo no momento de codificação (tipagem estática) ou no momento de interpretação/compilação e/ou execução (tipagem dinâmica).</p>
+    <h4></h4>
     <h4>Tipos de Dados:</h4>
     <p>Os tipos de dados podem ser primitivos ou compostos; tipos primitivos formam os tipos básicos da linguagem, enquanto os tipos compostos dependem de dois ou mais tipos primitivos em conjunto (não necessariamente tipos diferentes entre si).</p>
 <h5>Tipos Primitivos</h5>
