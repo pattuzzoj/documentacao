@@ -36,7 +36,7 @@
     
     imperativo - no paradigma imperativo as instrunções são codificadas de forma sequencial, seguindo uma ordem lógica
     funcional - no paradigma funcional as instruções são codificadas dentro de funções
-    orientada a objetos - no paradigma orientada a objetos a codificação é inteiramente voltada a contrução e manipulação de objetos
+    orientada a objetos - no paradigma orientada a objetos a codificação é inteiramente voltada a construção e manipulação de objetos
 </article>
 
 <article>
